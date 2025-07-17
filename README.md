@@ -3,15 +3,20 @@
 <h1 align="center">Hi 👋, I'm Md. Al Faiaz Rahman Fahim</h1>
 <h3 align="center">🚀 Software Engineering Student | 💻 Full-Stack Developer | 🎨 UI/UX Designer</h3>
 
+<p align="center">
+  I’m a passionate software engineering student from Bangladesh with hands-on experience in building <strong>full-stack web applications</strong>. <br />
+  My work focuses on combining clean backend architecture with modern frontend tools and intuitive UI/UX design.
+</p>
+
 ---
 
-### 👨‍🎓 About Me
+### 👨‍💻 About Me
 
-- 🎓 Final-year Computer Science & Engineering student at **AIUB**
-- 🔭 Currently building full-stack projects using **React**, **NestJS**, **PostgreSQL**, and more
-- 🌱 Improving skills in clean backend architecture and frontend integration
-- 🎨 Passionate about **UI/UX Design** using [Figma](https://www.figma.com/files/team/1347534778325579784/recents-and-sharing?fuid=1347534776022733946)
-- 📫 Reach me at: **faiazrahman12.std@gmail.com**
+- 🔭 Currently working on full-stack projects using **React**, **NestJS**, **PostgreSQL**, and more  
+- 🌱 Exploring clean architecture, API development, and deployment best practices  
+- 🎨 Experienced in **UI/UX Design** with [Figma](https://www.figma.com/files/team/1347534778325579784/recents-and-sharing?fuid=1347534776022733946)  
+- 💬 Ask me about: JavaScript, backend systems, REST APIs, clean design  
+- 📫 Email: **faiazrahman12.std@gmail.com**
 
 ---
 
@@ -68,23 +73,3 @@
   <a href="https://linkedin.com/in/mafrfahim31" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/FaiazRahmanFahim"><img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white" /></a>
 </p>
-
----
-
-### 🧠 Featured Projects
-
-- **Travel Booking Platform** – Built hotel module with NestJS, Next.js, and Figma UI  
-- **Online Food Ordering System** – Created full admin panel using AngularJS & ASP.NET  
-- **Job Portal** – Developed job seeker module with PHP and MySQL  
-- **Village Scene Simulation** – Created 2D animated scene using OpenGL  
-- **Book Shop Management** – Built reservation and inventory system in C# and MySQL  
-
----
-
-### ⚡ Fun Facts
-
-- 🧩 Solved 150+ problems on HackerRank focusing on DSA  
-- 🥾 Nature lover who enjoys hiking and photography  
-- 🍳 Loves experimenting with cooking and exploring new cuisines  
-
----
