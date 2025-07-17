@@ -115,6 +115,14 @@
 
 ---
 
+## ⭐ Support
+
+<p align="center">
+  ⭐ <strong>Star this repository if you found it helpful!</strong>  
+</p>
+
+---
+
 ## 💬 Final Words
 
 <p align="center"><strong>Thanks for visiting my GitHub! 😊</strong><br>
