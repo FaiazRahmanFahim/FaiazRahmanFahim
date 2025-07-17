@@ -46,14 +46,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FaiazRahmanFahim&theme=radical&row=1&column=6" alt="GitHub Trophies" />
-</p>
-
----
-
 ### 📈 GitHub Stats
 
 <p align="center">
@@ -62,6 +54,14 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=FaiazRahmanFahim&theme=radical" alt="GitHub Streak" />
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FaiazRahmanFahim&theme=radical&row=1&column=6" alt="GitHub Trophies" />
 </p>
 
 ---
