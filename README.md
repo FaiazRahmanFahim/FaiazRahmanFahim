@@ -20,9 +20,10 @@
 
 ---
 
-## 🛠️ Skills & Tools
+## 🛠️ <div align="center">Skills & Tools</div>
 
 ### 💻 Programming Languages
+<div align="center">
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/><br>JavaScript</td>
@@ -33,8 +34,10 @@
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40"/><br>PHP</td>
   </tr>
 </table>
+</div>
 
 ### 🌐 Frontend Technologies
+<div align="center">
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/><br>React</td>
@@ -44,8 +47,10 @@
     <td align="center"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" /><br>Tailwind CSS</td>
   </tr>
 </table>
+</div>
 
 ### 🧠 Backend & Frameworks
+<div align="center">
 <table>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" /><br>NestJS</td>
@@ -53,8 +58,10 @@
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="40"/><br>.NET</td>
   </tr>
 </table>
+</div>
 
 ### 🗄️ Databases
+<div align="center">
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/><br>MySQL</td>
@@ -62,8 +69,10 @@
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="40"/><br>Oracle SQL</td>
   </tr>
 </table>
+</div>
 
 ### 🔧 Tools & Platforms
+<div align="center">
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br>Git</td>
@@ -72,6 +81,7 @@
     <td align="center"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/><br>VS Code</td>
   </tr>
 </table>
+</div>
 
 ---
 
@@ -97,8 +107,17 @@
 
 ## 🔗 Let's Connect
 
-<p align="left">
+<p align="center">
   <a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/mafrfahim31" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/FaiazRahmanFahim"><img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white" /></a>
+</p>
+
+---
+
+## 💬 Final Words
+
+<p align="center"><strong>Thanks for visiting my GitHub! 😊</strong><br>
+Whether you're here to collaborate, review my work, or just explore — feel free to reach out.<br>
+Let's learn, build, and grow together 🚀💡
 </p>
