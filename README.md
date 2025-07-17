@@ -14,7 +14,7 @@
 
 - 🔭 Currently working on full-stack projects using **React**, **NestJS**, **PostgreSQL**, and more  
 - 🌱 Exploring clean architecture, API development, and deployment best practices  
-- 🎨 Experienced in **UI/UX Design** with [Figma](https://www.figma.com/files/team/1347534778325579784/recents-and-sharing?fuid=1347534776022733946)  
+- 🎨 Experienced in **UI/UX Design** with Figma
 - 💬 Ask me about: JavaScript, backend systems, REST APIs, clean design  
 - 📫 Email: **faiazrahman12.std@gmail.com**
 
