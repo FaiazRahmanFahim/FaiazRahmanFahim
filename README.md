@@ -4,7 +4,7 @@
 <h3 align="center">🚀 Software Engineering Student | 💻 Full-Stack Developer | 🎨 UI/UX Designer</h3>
 
 <p align="center">
-  I’m a passionate software engineering student from Bangladesh with hands-on experience in building <strong>full-stack web applications</strong>. <br />
+  I’m a passionate software engineering student from Bangladesh with hands-on experience in building<strong>full-stack web applications</strong>. <br />
   My work focuses on combining clean backend architecture with modern frontend tools and intuitive UI/UX design.
 </p>
 
