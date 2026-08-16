@@ -1,0 +1,53 @@
+{
+  "public_repos": 24,
+  "non_fork_repos": 23,
+  "followers": 2,
+  "following": 2,
+  "stars_earned_total": 0,
+  "forks_total": 0,
+  "top_languages_by_repo_count": [
+    {
+      "language": "HTML",
+      "repo_count": 10
+    },
+    {
+      "language": "JavaScript",
+      "repo_count": 7
+    },
+    {
+      "language": "TypeScript",
+      "repo_count": 3
+    },
+    {
+      "language": "C++",
+      "repo_count": 1
+    },
+    {
+      "language": "C#",
+      "repo_count": 1
+    }
+  ],
+  "recently_active_repos": [
+    {
+      "name": "Infinite-Cinema-Series-Network-ICSN",
+      "days_since_push": 0.0
+    },
+    {
+      "name": "Customer-Support-Zone",
+      "days_since_push": 21.2
+    },
+    {
+      "name": "Green-nest",
+      "days_since_push": 30.9
+    },
+    {
+      "name": "Hero-Apps",
+      "days_since_push": 310.8
+    },
+    {
+      "name": "Boi-Poka",
+      "days_since_push": 313.7
+    }
+  ],
+  "account_created_at": "2023-09-18T06:01:00Z"
+}

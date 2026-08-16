@@ -1,0 +1,84 @@
+# ══════════════════════════════════════════════════════════════════
+# profile.config.yml
+# Manual source of truth for the GitHub Profile Portfolio system.
+#
+# Everything in this file is MANUAL — the automation never overwrites
+# it and never invents values for empty fields. Fill in whatever you
+# want to appear; leave the rest blank and the README generator will
+# simply omit that content instead of guessing.
+# ══════════════════════════════════════════════════════════════════
+
+profile:
+  name: "Faiaz Rahman Fahim"
+  username: "FaiazRahmanFahim"
+  title: "Full-Stack Developer & Software Engineer"
+
+  # One line. Shown directly under the title in the hero section.
+  tagline: "BUILD • BREAK • DEBUG • REPEAT"
+
+  location: "Dhaka, Bangladesh"
+  timezone: ""
+
+about:
+  # Short paragraph used as a fallback for the "AI Quick Introduction"
+  # section if not enough repository/activity signal is available.
+  summary: ""
+
+  # Free-form bullet points — only rendered if non-empty.
+  who_i_am: []
+  what_im_building: []
+  what_i_care_about: []
+  what_im_working_toward: []
+  what_id_like_to_collaborate_on: []
+
+  current_focus: []      # e.g. "Deepening TypeScript & Node.js backend skills"
+
+  learning: []            # e.g. "System design fundamentals"
+
+  interests: []
+
+  philosophy: []          # short, punchy lines — e.g. "Ship, measure, improve"
+
+social:
+  github: "https://github.com/FaiazRahmanFahim"
+  portfolio: "https://alfaiaz-portfolio.surge.sh/"
+  linkedin: "https://www.linkedin.com/in/mafrfahim31/"
+  email: "faiazrahman12.std@gmail.com"
+
+  twitter: ""
+  youtube: ""
+  devto: ""
+  medium: ""
+  stackoverflow: ""
+  discord: ""
+
+repositories:
+  scan_all_public: true
+  include_forks: false
+  include_archived: false
+  # Repos to hide from every generated section regardless of activity.
+  exclude:
+    - "test"
+
+# Repos manually marked as "currently building" regardless of what
+# recency scoring would otherwise suggest. Leave empty to let the
+# scoring algorithm decide automatically.
+current_projects: []
+
+# Manually pin/prioritize specific repos in "Featured Projects".
+# Anything not listed here is still eligible via automatic scoring.
+featured_projects:
+  - repo: ""
+    priority: 10
+  - repo: ""
+    priority: 8
+
+theme:
+  style: "premium-futuristic"
+  primary: "#58A6FF"
+  secondary: "#39D0D8"
+  accent: "#F778BA"
+
+automation:
+  frequency: "daily"
+  cron: "17 3 * * *"
