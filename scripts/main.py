@@ -82,7 +82,7 @@ def build_ai_intro(config: dict, top_langs: list[dict], top_repo_name: str | Non
     if lang_names:
         lines.append(f"Most active with **{lang_names}** across public repositories on GitHub.")
     if top_repo_name:
-        lines.append(f"Currently building and contributing in [`{top_repo_name}`](https://github.com/{profile.get('username')}/{top_repo_name}).")
+        lines.append(f"Currently building in [`{top_repo_name}`](https://github.com/{profile.get('username')}/{top_repo_name}).")
     if focus:
         lines.append(f"Specialized in {', '.join(focus)}.")
 
@@ -112,35 +112,36 @@ def build_about_me(config: dict) -> str:
 
 def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> str:
     categories = tech_agg["categories"]
-    lang_dist = tech_agg["language_distribution"]
 
     blocks = []
 
-    # Currently building
+    # 1. Currently building (Active work only)
     blocks.append("### 🔥 Currently Building\n\n" + rg.render_currently_building(repos, classifications))
 
-    # Featured projects
-    blocks.append("### 🚀 Featured Projects\n\n" + rg.render_featured_projects(repos))
+    # 2. System Architecture & Tech Flow
+    blocks.append("### 🏗️ Full-Stack Application Architecture\n\n" + rg.render_architecture())
 
-    # Skills & Tools
+    # 3. Skills & Tools with Icon Badges
     skills_content = [
         '<div align="center">\n',
-        '  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />\n',
+        '  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,python,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />\n',
         '</div>\n',
         rg.render_skills(categories)
     ]
     blocks.append("### 🧠 Skills & Tech Stack\n\n" + "\n".join(skills_content))
 
-    # Technology ecosystem
+    # 4. Technology ecosystem diagram
     blocks.append(
         "### 🌳 Technology Ecosystem\n\n"
         f'<img src="./generated/technology-ecosystem.svg" alt="Technology ecosystem diagram" width="100%"/>'
     )
 
-    # Analytics cards & Table
+    # 5. Analytics cards & badges (No markdown table)
     analytics_content = [
-        rg.render_analytics(stats),
-        "",
+        '<div align="center">',
+        '  ' + rg.render_analytics_badges(stats),
+        '</div>',
+        '<br/>',
         '<div align="center">',
         f'  <img src="https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />',
         f'  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />',
@@ -152,14 +153,13 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
     ]
     blocks.append("### 📊 GitHub Analytics\n\n" + "\n".join(analytics_content))
 
-    # Language distribution
+    # 6. Language breakdown (Redesigned modern SVG)
     blocks.append(
-        "### 📈 Repository Language Distribution\n\n"
-        + rg.render_language_distribution(lang_dist)
-        + f'\n\n<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>'
+        "### 📈 Repository Language Breakdown\n\n"
+        f'<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>'
     )
 
-    # Contribution Activity
+    # 7. Contribution Activity
     contribution_content = [
         '<div align="center">',
         f'  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=tokyo-night&hide_border=true&area=true&color=58A6FF" alt="GitHub Activity Graph" width="100%" />',
@@ -232,7 +232,6 @@ def main():
         .replace("{{AI_INTRO}}", build_ai_intro(config, top_langs_for_intro, top_repo_name, about.get("current_focus", [])))
         .replace("{{ABOUT_ME}}", build_about_me(config))
         .replace("{{AUTO_BLOCK}}", auto_block)
-        .replace("{{LEARNING}}", rg.render_config_list(about.get("learning"), "Currently expanding knowledge in full-stack architectures & cloud technologies."))
         .replace("{{PHILOSOPHY}}", rg.render_config_list(about.get("philosophy"), "Build • Break • Debug • Repeat"))
         .replace("{{SOCIAL_LINKS}}", rg.render_social_links(config.get("social", {})))
         .replace("{{COLLAB_CTA}}", "Interested in collaborating or building something impactful? Feel free to reach out!")

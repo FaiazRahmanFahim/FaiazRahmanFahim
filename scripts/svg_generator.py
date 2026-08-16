@@ -3,7 +3,7 @@ svg_generator.py
 
 Generates lightweight, dependency-free SVGs:
   - technology-ecosystem.svg : tree diagram of detected tech by category
-  - language-distribution.svg: horizontal bar chart of language bytes
+  - language-distribution.svg: modern multi-color distribution bar & cards
 """
 
 from __future__ import annotations
@@ -18,7 +18,6 @@ STYLE_BLOCK = """
   .node-txt { fill: #0969da; font-weight: 600; }
   .accent   { fill: #0969da; }
   .bar-bg   { fill: #eaeef2; }
-  .bar      { fill: url(#blueGradient); }
   @media (prefers-color-scheme: dark) {
     .bg       { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
     .fg       { fill: #f0f6fc; }
@@ -28,20 +27,9 @@ STYLE_BLOCK = """
     .node-txt { fill: #58a6ff; font-weight: 600; }
     .accent   { fill: #58a6ff; }
     .bar-bg   { fill: #21262d; }
-    .bar      { fill: url(#darkBlueGradient); }
   }
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
 </style>
-<defs>
-  <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#0969da" />
-    <stop offset="100%" stop-color="#2da44e" />
-  </linearGradient>
-  <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#58a6ff" />
-    <stop offset="100%" stop-color="#39d0d8" />
-  </linearGradient>
-</defs>
 """.strip()
 
 CATEGORY_TITLES = {
@@ -49,9 +37,19 @@ CATEGORY_TITLES = {
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Databases",
-    "devops": "DevOps",
+    "devops": "DevOps & Tools",
     "cloud": "Cloud",
     "ai_data": "AI / Data",
+}
+
+LANGUAGE_COLORS = {
+    "JavaScript": "#F7DF1E",
+    "HTML": "#E34F26",
+    "TypeScript": "#3178C6",
+    "C#": "#239120",
+    "C++": "#00599C",
+    "Python": "#3776AB",
+    "CSS": "#1572B6",
 }
 
 
@@ -89,26 +87,59 @@ def technology_ecosystem_svg(categories: dict[str, list[dict]], root_label: str)
 
 def language_distribution_svg(language_distribution: list[dict], max_langs: int = 6) -> str:
     langs = language_distribution[:max_langs]
-    row_h = 32
-    label_w = 140
-    bar_max_w = 400
-    width = label_w + bar_max_w + 90
-    height = 40 + row_h * len(langs) + 20
+    if not langs:
+        return ""
 
-    max_pct = max((l["percentage"] for l in langs), default=1) or 1
+    width = 720
+    bar_width = width - 48
+    bar_height = 14
+    bar_x = 24
+    bar_y = 52
 
-    parts = [f'<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Repository language distribution">']
+    # Calculate grid layout for language pills (2 columns)
+    cols = 2
+    row_count = (len(langs) + 1) // 2
+    height = 90 + row_count * 38
+
+    parts = [f'<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language Distribution">']
     parts.append(STYLE_BLOCK)
     parts.append(f'<rect class="bg" x="1" y="1" width="{width-2}" height="{height-2}" rx="12"/>')
-    parts.append(f'<text x="20" y="28" class="fg" font-size="14" font-weight="700">Repository Language Distribution</text>')
+    parts.append(f'<text x="24" y="32" class="fg" font-size="14" font-weight="700">Repository Language Breakdown</text>')
+
+    # 1. Continuous Multi-Color Top Progress Bar
+    parts.append(f'<g clip-path="url(#bar-clip)">')
+    parts.append(f'<clipPath id="bar-clip"><rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="{bar_height}" rx="7"/></clipPath>')
+    
+    current_x = bar_x
+    for lang in langs:
+        pct = lang["percentage"]
+        segment_w = max(2.0, (pct / 100.0) * bar_width)
+        color = LANGUAGE_COLORS.get(lang["language"], "#58A6FF")
+        parts.append(f'<rect x="{current_x:.1f}" y="{bar_y}" width="{segment_w:.1f}" height="{bar_height}" fill="{color}"/>')
+        current_x += segment_w
+    parts.append('</g>')
+
+    # 2. Detailed Language Cards / Badges Grid Below
+    col_w = (width - 48 - 20) / 2
+    start_y = bar_y + bar_height + 24
 
     for i, lang in enumerate(langs):
-        y = 48 + i * row_h
-        bar_w = max(6, bar_max_w * (lang["percentage"] / 100))
-        parts.append(f'<text x="20" y="{y+14}" class="fg" font-size="12" font-weight="500">{lang["language"]}</text>')
-        parts.append(f'<rect class="bar-bg" x="{label_w}" y="{y}" width="{bar_max_w}" height="18" rx="6"/>')
-        parts.append(f'<rect class="bar" x="{label_w}" y="{y}" width="{bar_w:.1f}" height="18" rx="6"/>')
-        parts.append(f'<text x="{label_w + bar_max_w + 12}" y="{y+14}" class="muted" font-size="11.5" font-weight="600">{lang["percentage"]}%</text>')
+        col_idx = i % 2
+        row_idx = i // 2
+        
+        card_x = bar_x + col_idx * (col_w + 20)
+        card_y = start_y + row_idx * 38
+        color = LANGUAGE_COLORS.get(lang["language"], "#58A6FF")
+        pct = lang["percentage"]
+
+        # Card container
+        parts.append(f'<rect class="node" x="{card_x}" y="{card_y}" width="{col_w}" height="28" rx="6" stroke-width="1"/>')
+        # Color dot indicator
+        parts.append(f'<circle cx="{card_x + 14}" cy="{card_y + 14}" r="5" fill="{color}"/>')
+        # Language name
+        parts.append(f'<text x="{card_x + 28}" y="{card_y + 18}" class="fg" font-size="12" font-weight="600">{lang["language"]}</text>')
+        # Percentage text
+        parts.append(f'<text x="{card_x + col_w - 12}" y="{card_y + 18}" text-anchor="end" class="muted" font-size="11.5" font-weight="600">{pct}%</text>')
 
     parts.append("</svg>")
     return "\n".join(parts)

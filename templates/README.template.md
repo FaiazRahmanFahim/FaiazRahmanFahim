@@ -32,12 +32,6 @@
 
 ---
 
-## 📚 Currently Learning
-
-{{LEARNING}}
-
----
-
 ## 💡 Engineering Philosophy
 
 {{PHILOSOPHY}}

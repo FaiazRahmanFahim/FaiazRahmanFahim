@@ -48,45 +48,65 @@ Passionate Full-Stack Developer and Software Engineer focused on crafting modern
 <!-- AUTO-GENERATED:START -->
 ### 🔥 Currently Building
 
-**Recently Active / Current Projects**
+**Active & Ongoing Projects**
 
-- **[FaiazRahmanFahim](https://github.com/FaiazRahmanFahim/FaiazRahmanFahim)** — 🚀 Learning by building | 💻 Passionate about full-stack development & modern web technologies
-  <sub>Python · 🔥 Active 📚 Learning · updated 0d ago</sub>
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>JavaScript · 🔥 Active · updated 0d ago</sub>
+  <sub>`JavaScript` · 🔥 Active · updated today</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>JavaScript · updated 21d ago</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 21d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 - **[Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)**
-  <sub>JavaScript · updated 31d ago</sub>
-- **[simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)** — https://faiazrahmanfahim.github.io/simple-faq-master/
-  <sub>HTML · updated 392d ago</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 31d ago · [Live Demo](https://green-nest-firebase-auth.web.app/)</sub>
 
 ---
 
-### 🚀 Featured Projects
+### 🏗️ Full-Stack Application Architecture
 
-### 📌 [FaiazRahmanFahim](https://github.com/FaiazRahmanFahim/FaiazRahmanFahim)
-🚀 Learning by building | 💻 Passionate about full-stack development & modern web technologies
-**Language:** `Python`
+```mermaid
+flowchart LR
+    subgraph Client ["🌐 Frontend Layer"]
+        React["⚛️ React 18 + Vite"]
+        UI["🎨 Tailwind CSS + DaisyUI"]
+        Router["🧭 React Router"]
+        Viz["📊 Recharts & Lucide"]
+    end
 
-### 📌 [Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)
-**Language:** `JavaScript`
+    subgraph StateLogic ["⚡ State & Networking"]
+        Hooks["🔄 Custom Hooks & Context"]
+        API["📡 Axios & REST APIs"]
+    end
 
-### 📌 [Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)
-**Language:** `JavaScript`
-🚀 [**Live Demo ↗**](https://customer-support-zone-mafrf.surge.sh/)
+    subgraph BackendData ["⚙️ Backend & Services"]
+        DotNet["🔷 ASP.NET Core / Node.js"]
+        Auth["🔐 Firebase Auth"]
+        DB["🗄️ Realtime DB & Firestore"]
+    end
 
-### 📌 [Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)
-**Language:** `JavaScript`
-🚀 [**Live Demo ↗**](https://green-nest-firebase-auth.web.app/)
+    subgraph DevOpsDeploy ["🚀 Delivery & Hosting"]
+        Git["🐙 Git & GitHub"]
+        Hosting["☁️ Surge.sh / Firebase Hosting"]
+    end
 
-### 📌 [simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)
-https://faiazrahmanfahim.github.io/simple-faq-master/
-**Language:** `HTML`
+    React --> UI
+    React --> Router
+    React --> Viz
+    React --> Hooks
+    Hooks --> API
+    API --> DotNet
+    API --> Auth
+    DotNet --> DB
+    Client -.-> Hosting
+    DevOpsDeploy -.-> Hosting
+```
 
-### 📌 [Hero-Apps](https://github.com/FaiazRahmanFahim/Hero-Apps)
-**Language:** `JavaScript`
-🚀 [**Live Demo ↗**](https://hero-apps-mafrf.surge.sh/)
+<br/>
+
+| Architectural Layer | Core Technologies | Focus & Capabilities |
+| :--- | :--- | :--- |
+| **🌐 Frontend & UI/UX** | `React`, `Vite`, `Tailwind CSS`, `DaisyUI` | Modular component architecture, lightning-fast HMR, responsive UI design |
+| **⚡ State & Navigation** | `React Router`, `Context API`, `Custom Hooks` | Client-side routing, structured state management, data visualization (`Recharts`) |
+| **⚙️ Backend & APIs** | `ASP.NET Core`, `C#`, `Node.js`, `REST APIs` | Scalable service layers, robust business logic, RESTful API endpoints |
+| **🔐 Auth & Cloud Data** | `Firebase Authentication`, `Firestore`, `Realtime DB` | Secure user authentication, real-time data synchronization |
+| **🛠️ Tooling & DevOps** | `Git`, `GitHub Actions`, `Surge.sh`, `VS Code` | Automated workflows, CI/CD pipelines, instant web deployments |
 
 ---
 
@@ -94,12 +114,18 @@ https://faiazrahmanfahim.github.io/simple-faq-master/
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,python,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />
 
 </div>
 
-- **💻 Languages:** `HTML` `CSS` `JavaScript` `C#` `TypeScript` `ASP.NET` `Python` `C++`
-- **🌐 Frontend:** `React` `Tailwind CSS` `Vite` `DaisyUI` `React Router` `Recharts` `Lucide Icons`
+**💻 Languages**
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" height="24" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" height="24" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" height="24" /> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" height="24" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24" /> <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET" height="24" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="24" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" height="24" />
+
+**🌐 Frontend**
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/DaisyUI-5AD7CD?style=flat-square&logo=daisyui&logoColor=black" alt="DaisyUI" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" /> <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" alt="Recharts" height="24" /> <img src="https://img.shields.io/badge/Lucide-F56565?style=flat-square&logo=feather&logoColor=white" alt="Lucide Icons" height="24" />
+
 
 ---
 
@@ -111,10 +137,10 @@ https://faiazrahmanfahim.github.io/simple-faq-master/
 
 ### 📊 GitHub Analytics
 
-| 📦 Public Repos | 👥 Followers | 🤝 Following | ⭐ Stars Earned | 🍴 Forks |
-| :---: | :---: | :---: | :---: | :---: |
-| **24** | **2** | **2** | **0** | **0** |
-
+<div align="center">
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+</div>
+<br/>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />
@@ -126,16 +152,7 @@ https://faiazrahmanfahim.github.io/simple-faq-master/
 
 ---
 
-### 📈 Repository Language Distribution
-
-```text
-JavaScript     ██████░░░░░░░░░░░░  35.4%
-HTML           ████░░░░░░░░░░░░░░  24.7%
-TypeScript     ████░░░░░░░░░░░░░░  24.2%
-C#             ██░░░░░░░░░░░░░░░░  9.7%
-C++            █░░░░░░░░░░░░░░░░░  2.8%
-Python         ░░░░░░░░░░░░░░░░░░  1.8%
-```
+### 📈 Repository Language Breakdown
 
 <img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>
 
@@ -155,14 +172,6 @@ Python         ░░░░░░░░░░░░░░░░░░  1.8%
   </picture>
 </div>
 <!-- AUTO-GENERATED:END -->
-
----
-
-## 📚 Currently Learning
-
-- Next.js & Server-Side Rendering (SSR)
-- System Design, Microservices & Scalable Cloud Deployments
-- Advanced TypeScript and Data Structures & Algorithms
 
 ---
 

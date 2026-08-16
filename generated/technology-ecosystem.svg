@@ -8,7 +8,6 @@
   .node-txt { fill: #0969da; font-weight: 600; }
   .accent   { fill: #0969da; }
   .bar-bg   { fill: #eaeef2; }
-  .bar      { fill: url(#blueGradient); }
   @media (prefers-color-scheme: dark) {
     .bg       { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
     .fg       { fill: #f0f6fc; }
@@ -18,20 +17,9 @@
     .node-txt { fill: #58a6ff; font-weight: 600; }
     .accent   { fill: #58a6ff; }
     .bar-bg   { fill: #21262d; }
-    .bar      { fill: url(#darkBlueGradient); }
   }
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
 </style>
-<defs>
-  <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#0969da" />
-    <stop offset="100%" stop-color="#2da44e" />
-  </linearGradient>
-  <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#58a6ff" />
-    <stop offset="100%" stop-color="#39d0d8" />
-  </linearGradient>
-</defs>
 <rect class="bg" x="1" y="1" width="718" height="322" rx="12"/>
 <rect class="node" x="220.0" y="16" width="280" height="32" rx="16" stroke-width="1.5"/>
 <text x="360.0" y="37" text-anchor="middle" class="node-txt" font-size="14">Md Al Faiaz Rahman Fahim's Ecosystem</text>
