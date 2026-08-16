@@ -117,6 +117,17 @@
         "repo_count": 2
       },
       {
+        "technology": "Python",
+        "confidence": 0.99,
+        "repos": [
+          "FaiazRahmanFahim"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 1
+      },
+      {
         "technology": "C++",
         "confidence": 0.99,
         "repos": [
@@ -133,19 +144,23 @@
         "technology": "React",
         "confidence": 0.95,
         "repos": [
-          "Hero-Apps"
+          "Hero-Apps",
+          "Boi-Poka",
+          "BPL-Teams-bets"
         ],
         "evidence": [
           "package.json dependency"
         ],
-        "repo_count": 1
+        "repo_count": 3
       },
       {
         "technology": "Tailwind CSS",
         "confidence": 0.9,
         "repos": [
           "Hero-Apps",
+          "Boi-Poka",
           "Green-Earth",
+          "BPL-Teams-bets",
           "Payoo-Mobile-App",
           "English-Janala",
           "Emergency-Hotline",
@@ -155,7 +170,7 @@
           "package.json dependency",
           "tailwind.config.js present"
         ],
-        "repo_count": 6
+        "repo_count": 8
       },
       {
         "technology": "Vite",
@@ -172,26 +187,29 @@
         "repo_count": 3
       },
       {
-        "technology": "React Router",
-        "confidence": 0.85,
-        "repos": [
-          "Hero-Apps"
-        ],
-        "evidence": [
-          "package.json dependency"
-        ],
-        "repo_count": 1
-      },
-      {
         "technology": "DaisyUI",
         "confidence": 0.85,
         "repos": [
-          "Hero-Apps"
+          "Hero-Apps",
+          "Boi-Poka",
+          "BPL-Teams-bets"
         ],
         "evidence": [
           "package.json dependency"
         ],
-        "repo_count": 1
+        "repo_count": 3
+      },
+      {
+        "technology": "React Router",
+        "confidence": 0.85,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 2
       },
       {
         "technology": "Recharts",
@@ -208,12 +226,13 @@
         "technology": "Lucide Icons",
         "confidence": 0.6,
         "repos": [
-          "Hero-Apps"
+          "Hero-Apps",
+          "Boi-Poka"
         ],
         "evidence": [
           "package.json dependency"
         ],
-        "repo_count": 1
+        "repo_count": 2
       }
     ]
   },
@@ -221,27 +240,32 @@
     {
       "language": "JavaScript",
       "bytes": 782518,
-      "percentage": 36.0
+      "percentage": 35.4
     },
     {
       "language": "HTML",
       "bytes": 546497,
-      "percentage": 25.2
+      "percentage": 24.7
     },
     {
       "language": "TypeScript",
       "bytes": 534567,
-      "percentage": 24.6
+      "percentage": 24.2
     },
     {
       "language": "C#",
       "bytes": 215393,
-      "percentage": 9.9
+      "percentage": 9.7
     },
     {
       "language": "C++",
       "bytes": 62031,
-      "percentage": 2.9
+      "percentage": 2.8
+    },
+    {
+      "language": "Python",
+      "bytes": 39551,
+      "percentage": 1.8
     },
     {
       "language": "CSS",

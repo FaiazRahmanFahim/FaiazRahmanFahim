@@ -1,12 +1,14 @@
 <div align="center">
 
-# Faiaz Rahman Fahim
+# Md Al Faiaz Rahman Fahim
 
-### Full-Stack Developer & Software Engineer
+<a href="https://github.com/FaiazRahmanFahim">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Md+Al+Faiaz+Rahman+Fahim+%F0%9F%91%8B;Full-Stack+Developer+%26+Software+Engineer;BUILD+%E2%80%A2+BREAK+%E2%80%A2+DEBUG+%E2%80%A2+REPEAT;Passionate+about+Building+Modern+Web+Apps" alt="Typing Banner" />
+</a>
 
-**BUILD • BREAK • DEBUG • REPEAT**
+<br/>
 
-[GitHub](https://github.com/FaiazRahmanFahim) &nbsp;|&nbsp; [Portfolio](https://alfaiaz-portfolio.surge.sh/) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/mafrfahim31/) &nbsp;|&nbsp; [Email](mailto:faiazrahman12.std@gmail.com)
+<a href="https://alfaiaz-portfolio.surge.sh/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -14,13 +16,32 @@
 
 ## 🤖 AI Quick Introduction
 
-**Faiaz Rahman Fahim** is a full-stack developer & software engineer based in Dhaka, Bangladesh. Most active with **HTML, CSS, JavaScript** across public repositories on GitHub. Currently most active in [`Infinite-Cinema-Series-Network-ICSN`](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN).
+Passionate Full-Stack Developer and Software Engineer focused on crafting modern, high-performance web applications with delightful user experiences. Constantly experimenting, solving challenging engineering problems, and turning creative ideas into impactful code.
 
 ---
 
 ## 👨‍💻 About Me
 
-_Add entries under `about.*` in `profile.config.yml` to populate this section._
+### 👨‍💻 Who I Am
+- 🚀 Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh
+- 💻 Passionate about building responsive, modern, and accessible web experiences
+- ⚡ Quick learner who loves diving deep into algorithms, clean architecture, and modern frameworks
+
+### 🔥 What I'm Building
+- Modern full-stack web applications with React, TypeScript, and Tailwind CSS
+- Scalable backend architectures, RESTful APIs, and database-driven solutions
+
+### 🧠 What I Care About
+- Clean, maintainable, and well-structured codebases
+- Intuitive UI/UX design with smooth micro-interactions
+- Continuous learning, open collaboration, and engineering excellence
+
+### 🎯 What I'm Working Toward
+- Mastering advanced full-stack systems with Next.js, Node.js, and ASP.NET Core
+- Contributing to meaningful open-source software and developer tooling
+
+### 🤝 What I'd Like to Collaborate On
+- Exciting full-stack web products, open-source projects, and developer tools
 
 ---
 
@@ -29,55 +50,56 @@ _Add entries under `about.*` in `profile.config.yml` to populate this section._
 
 **Recently Active / Current Projects**
 
-- **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)** — _No description provided._
-  <sub>JavaScript · 🔥 Active · updated 0d ago</sub>
-- **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)** — _No description provided._
-  <sub>JavaScript · updated 21d ago</sub>
-- **[Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)** — _No description provided._
-  <sub>JavaScript · updated 30d ago</sub>
-- **[simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)** — https://faiazrahmanfahim.github.io/simple-faq-master/
-  <sub>HTML · updated 391d ago</sub>
 - **[FaiazRahmanFahim](https://github.com/FaiazRahmanFahim/FaiazRahmanFahim)** — 🚀 Learning by building | 💻 Passionate about full-stack development & modern web technologies
-  <sub>📚 Learning · updated 395d ago</sub>
+  <sub>Python · 🔥 Active 📚 Learning · updated 0d ago</sub>
+- **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
+  <sub>JavaScript · 🔥 Active · updated 0d ago</sub>
+- **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
+  <sub>JavaScript · updated 21d ago</sub>
+- **[Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)**
+  <sub>JavaScript · updated 31d ago</sub>
+- **[simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)** — https://faiazrahmanfahim.github.io/simple-faq-master/
+  <sub>HTML · updated 392d ago</sub>
 
 ---
 
 ### 🚀 Featured Projects
 
-### [Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)
-_No description provided._
-**Language:** JavaScript
-
-### [Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)
-_No description provided._
-**Language:** JavaScript
-[Live Demo](https://customer-support-zone-mafrf.surge.sh/)
-
-### [Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)
-_No description provided._
-**Language:** JavaScript
-[Live Demo](https://green-nest-firebase-auth.web.app/)
-
-### [simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)
-https://faiazrahmanfahim.github.io/simple-faq-master/
-**Language:** HTML
-
-### [FaiazRahmanFahim](https://github.com/FaiazRahmanFahim/FaiazRahmanFahim)
+### 📌 [FaiazRahmanFahim](https://github.com/FaiazRahmanFahim/FaiazRahmanFahim)
 🚀 Learning by building | 💻 Passionate about full-stack development & modern web technologies
+**Language:** `Python`
 
-### [Hero-Apps](https://github.com/FaiazRahmanFahim/Hero-Apps)
-_No description provided._
-**Language:** JavaScript
-[Live Demo](https://hero-apps-mafrf.surge.sh/)
+### 📌 [Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)
+**Language:** `JavaScript`
+
+### 📌 [Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)
+**Language:** `JavaScript`
+🚀 [**Live Demo ↗**](https://customer-support-zone-mafrf.surge.sh/)
+
+### 📌 [Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)
+**Language:** `JavaScript`
+🚀 [**Live Demo ↗**](https://green-nest-firebase-auth.web.app/)
+
+### 📌 [simple-faq-master](https://github.com/FaiazRahmanFahim/simple-faq-master)
+https://faiazrahmanfahim.github.io/simple-faq-master/
+**Language:** `HTML`
+
+### 📌 [Hero-Apps](https://github.com/FaiazRahmanFahim/Hero-Apps)
+**Language:** `JavaScript`
+🚀 [**Live Demo ↗**](https://hero-apps-mafrf.surge.sh/)
 
 ---
 
-### 🧠 Skills & Tools
+### 🧠 Skills & Tech Stack
 
-**Languages:** HTML, CSS, JavaScript, C#, TypeScript, ASP.NET, C++
-**Frontend:** React, Tailwind CSS, Vite, React Router, DaisyUI, Recharts, Lucide Icons
+<div align="center">
 
-<sub>Detected automatically from repository languages, manifests and config files. Frequency of use, not a claim of expertise.</sub>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />
+
+</div>
+
+- **💻 Languages:** `HTML` `CSS` `JavaScript` `C#` `TypeScript` `ASP.NET` `Python` `C++`
+- **🌐 Frontend:** `React` `Tailwind CSS` `Vite` `DaisyUI` `React Router` `Recharts` `Lucide Icons`
 
 ---
 
@@ -89,23 +111,31 @@ _No description provided._
 
 ### 📊 GitHub Analytics
 
-Public Repos | Followers | Following | Stars Earned | Forks
---- | --- | --- | --- | ---
-24 | 2 | 2 | 0 | 0
+| 📦 Public Repos | 👥 Followers | 🤝 Following | ⭐ Stars Earned | 🍴 Forks |
+| :---: | :---: | :---: | :---: | :---: |
+| **24** | **2** | **2** | **0** | **0** |
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FaiazRahmanFahim&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF" alt="GitHub Streak" />
+</div>
 
 ---
 
 ### 📈 Repository Language Distribution
 
 ```text
-JavaScript     ██████░░░░░░░░░░░░  36.0%
-HTML           █████░░░░░░░░░░░░░  25.2%
-TypeScript     ████░░░░░░░░░░░░░░  24.6%
-C#             ██░░░░░░░░░░░░░░░░  9.9%
-C++            █░░░░░░░░░░░░░░░░░  2.9%
-CSS            ░░░░░░░░░░░░░░░░░░  1.4%
+JavaScript     ██████░░░░░░░░░░░░  35.4%
+HTML           ████░░░░░░░░░░░░░░  24.7%
+TypeScript     ████░░░░░░░░░░░░░░  24.2%
+C#             ██░░░░░░░░░░░░░░░░  9.7%
+C++            █░░░░░░░░░░░░░░░░░  2.8%
+Python         ░░░░░░░░░░░░░░░░░░  1.8%
 ```
-<sub>Based on GitHub's language byte statistics across public, non-fork repositories. This reflects repository language distribution, not skill level.</sub>
 
 <img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>
 
@@ -113,38 +143,53 @@ CSS            ░░░░░░░░░░░░░░░░░░  1.4%
 
 ### 🟩 Contribution Activity
 
-![GitHub contribution snake](https://raw.githubusercontent.com/FaiazRahmanFahim/FaiazRahmanFahim/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FaiazRahmanFahim&theme=tokyo-night&hide_border=true&area=true&color=58A6FF" alt="GitHub Activity Graph" width="100%" />
+</div>
 
-<sub>Rendered by a separate, optional snake-animation workflow — see docs/AUTOMATION.md.</sub>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FaiazRahmanFahim/FaiazRahmanFahim/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FaiazRahmanFahim/FaiazRahmanFahim/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/FaiazRahmanFahim/FaiazRahmanFahim/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 <!-- AUTO-GENERATED:END -->
 
 ---
 
 ## 📚 Currently Learning
 
-_No learning goals configured yet — add them to profile.config.yml_
+- Next.js & Server-Side Rendering (SSR)
+- System Design, Microservices & Scalable Cloud Deployments
+- Advanced TypeScript and Data Structures & Algorithms
 
 ---
 
 ## 💡 Engineering Philosophy
 
-_No engineering philosophy configured yet_
+- Build • Break • Debug • Repeat
+- Write code that humans can read and machines can execute efficiently
+- Consistency, curiosity, and relentless debugging compound into mastery
 
 ---
 
 ## 🌐 Let's Connect
 
-[🔗 GitHub](https://github.com/FaiazRahmanFahim)  
-[🔗 Portfolio](https://alfaiaz-portfolio.surge.sh/)  
-[🔗 LinkedIn](https://www.linkedin.com/in/mafrfahim31/)  
-[✉️ Email](mailto:faiazrahman12.std@gmail.com)
+<div align="center">
+
+<a href="https://alfaiaz-portfolio.surge.sh/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+</div>
 
 ---
 
 ## 🤝 Let's Build Something
 
-Interested in building something meaningful? Let's connect, collaborate, and ship something great.
+Interested in collaborating or building something impactful? Feel free to reach out!
 
 <div align="center">
-<sub>This profile updates automatically via GitHub Actions — last content reflects live public repository data.</sub>
+<br/>
+
+<sub>Crafted with passion by **Md Al Faiaz Rahman Fahim**</sub>
 </div>

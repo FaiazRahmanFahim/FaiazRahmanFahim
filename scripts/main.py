@@ -3,17 +3,6 @@ main.py
 
 Pipeline entrypoint. Run daily by .github/workflows/update-profile.yml
 (and manually via `python scripts/main.py`).
-
-    GitHub API
-        -> repository_analyzer   (filter + score)
-        -> technology_detector   (per-repo detection + aggregation)
-        -> project_classifier    (evidence-based labels)
-        -> statistics_generator  (verified public stats)
-        -> svg_generator         (technology-ecosystem.svg, language-distribution.svg)
-        -> readme_generator      (renders README.md, preserving manual edits)
-
-All intermediate data is written to generated/*.json so the pipeline
-is inspectable and each stage can be re-run independently.
 """
 
 from __future__ import annotations
@@ -58,15 +47,25 @@ def write_json(name: str, data) -> None:
 
 def build_hero_links(social: dict) -> str:
     parts = []
-    if social.get("github"):
-        parts.append(f"[GitHub]({social['github']})")
     if social.get("portfolio"):
-        parts.append(f"[Portfolio]({social['portfolio']})")
+        parts.append(
+            f'<a href="{social["portfolio"]}" target="_blank">'
+            f'<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />'
+            f'</a>'
+        )
     if social.get("linkedin"):
-        parts.append(f"[LinkedIn]({social['linkedin']})")
+        parts.append(
+            f'<a href="{social["linkedin"]}" target="_blank">'
+            f'<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />'
+            f'</a>'
+        )
     if social.get("email"):
-        parts.append(f"[Email](mailto:{social['email']})")
-    return " &nbsp;|&nbsp; ".join(parts)
+        parts.append(
+            f'<a href="mailto:{social["email"]}">'
+            f'<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />'
+            f'</a>'
+        )
+    return "&nbsp;&nbsp;".join(parts)
 
 
 def build_ai_intro(config: dict, top_langs: list[dict], top_repo_name: str | None, focus: list[str]) -> str:
@@ -83,15 +82,15 @@ def build_ai_intro(config: dict, top_langs: list[dict], top_repo_name: str | Non
     if lang_names:
         lines.append(f"Most active with **{lang_names}** across public repositories on GitHub.")
     if top_repo_name:
-        lines.append(f"Currently most active in [`{top_repo_name}`](https://github.com/{profile.get('username')}/{top_repo_name}).")
+        lines.append(f"Currently building and contributing in [`{top_repo_name}`](https://github.com/{profile.get('username')}/{top_repo_name}).")
     if focus:
-        lines.append(f"Focused on: {', '.join(focus)}.")
+        lines.append(f"Specialized in {', '.join(focus)}.")
 
     about_summary = (config.get("about", {}) or {}).get("summary", "").strip()
     if about_summary:
         lines = [about_summary]
 
-    return " ".join(lines) if lines else "_Add `about.summary` in `profile.config.yml` to populate this section._"
+    return " ".join(lines)
 
 
 def build_about_me(config: dict) -> str:
@@ -105,11 +104,9 @@ def build_about_me(config: dict) -> str:
     ]
     blocks = []
     for title, items in sections:
-        items = [i for i in (items or []) if i and i.strip()]
+        items = [i for i in (items or []) if i and str(i).strip()]
         if items:
-            blocks.append(f"**{title}**\n" + "\n".join(f"- {i}" for i in items))
-    if not blocks:
-        return "_Add entries under `about.*` in `profile.config.yml` to populate this section._"
+            blocks.append(f"### {title}\n" + "\n".join(f"- {i}" for i in items))
     return "\n\n".join(blocks)
 
 
@@ -119,24 +116,64 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
 
     blocks = []
 
+    # Currently building
     blocks.append("### 🔥 Currently Building\n\n" + rg.render_currently_building(repos, classifications))
+
+    # Featured projects
     blocks.append("### 🚀 Featured Projects\n\n" + rg.render_featured_projects(repos))
-    blocks.append("### 🧠 Skills & Tools\n\n" + rg.render_skills(categories))
+
+    # Skills & Tools
+    skills_content = [
+        '<div align="center">\n',
+        '  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />\n',
+        '</div>\n',
+        rg.render_skills(categories)
+    ]
+    blocks.append("### 🧠 Skills & Tech Stack\n\n" + "\n".join(skills_content))
+
+    # Technology ecosystem
     blocks.append(
         "### 🌳 Technology Ecosystem\n\n"
         f'<img src="./generated/technology-ecosystem.svg" alt="Technology ecosystem diagram" width="100%"/>'
     )
-    blocks.append("### 📊 GitHub Analytics\n\n" + rg.render_analytics(stats))
+
+    # Analytics cards & Table
+    analytics_content = [
+        rg.render_analytics(stats),
+        "",
+        '<div align="center">',
+        f'  <img src="https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />',
+        f'  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />',
+        '</div>',
+        '<br/>',
+        '<div align="center">',
+        f'  <img src="https://github-readme-streak-stats.herokuapp.com/?user={username}&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF" alt="GitHub Streak" />',
+        '</div>'
+    ]
+    blocks.append("### 📊 GitHub Analytics\n\n" + "\n".join(analytics_content))
+
+    # Language distribution
     blocks.append(
         "### 📈 Repository Language Distribution\n\n"
         + rg.render_language_distribution(lang_dist)
         + f'\n\n<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>'
     )
-    blocks.append(
-        "### 🟩 Contribution Activity\n\n"
-        f"![GitHub contribution snake](https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg)\n\n"
-        "<sub>Rendered by a separate, optional snake-animation workflow — see docs/AUTOMATION.md.</sub>"
-    )
+
+    # Contribution Activity
+    contribution_content = [
+        '<div align="center">',
+        f'  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=tokyo-night&hide_border=true&area=true&color=58A6FF" alt="GitHub Activity Graph" width="100%" />',
+        '</div>',
+        "",
+        '<div align="center">',
+        '  <picture>',
+        f'    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg">',
+        f'    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg">',
+        f'    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake.svg">',
+        '  </picture>',
+        '</div>'
+    ]
+    blocks.append("### 🟩 Contribution Activity\n\n" + "\n".join(contribution_content))
 
     return "\n\n---\n\n".join(blocks)
 
@@ -144,7 +181,7 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
 def main():
     config = load_config()
     profile = config.get("profile", {})
-    username = profile.get("username")
+    username = profile.get("username", "FaiazRahmanFahim")
 
     client = gc.GitHubClient(username=username)
 
@@ -188,29 +225,21 @@ def main():
 
     rendered = (
         template.replace("{{NAME}}", profile.get("name", ""))
+        .replace("{{USERNAME}}", username)
         .replace("{{TITLE}}", profile.get("title", ""))
         .replace("{{TAGLINE}}", profile.get("tagline", ""))
         .replace("{{HERO_LINKS}}", build_hero_links(config.get("social", {})))
         .replace("{{AI_INTRO}}", build_ai_intro(config, top_langs_for_intro, top_repo_name, about.get("current_focus", [])))
         .replace("{{ABOUT_ME}}", build_about_me(config))
         .replace("{{AUTO_BLOCK}}", auto_block)
-        .replace("{{LEARNING}}", rg.render_config_list(about.get("learning"), "No learning goals configured yet — add them to profile.config.yml"))
-        .replace("{{PHILOSOPHY}}", rg.render_config_list(about.get("philosophy"), "No engineering philosophy configured yet"))
+        .replace("{{LEARNING}}", rg.render_config_list(about.get("learning"), "Currently expanding knowledge in full-stack architectures & cloud technologies."))
+        .replace("{{PHILOSOPHY}}", rg.render_config_list(about.get("philosophy"), "Build • Break • Debug • Repeat"))
         .replace("{{SOCIAL_LINKS}}", rg.render_social_links(config.get("social", {})))
-        .replace("{{COLLAB_CTA}}", "Interested in building something meaningful? Let's connect, collaborate, and ship something great.")
-        .replace("{{FOOTER}}", "This profile updates automatically via GitHub Actions — last content reflects live public repository data.")
+        .replace("{{COLLAB_CTA}}", "Interested in collaborating or building something impactful? Feel free to reach out!")
     )
 
-    existing = open(README_PATH, "r", encoding="utf-8").read() if os.path.exists(README_PATH) else None
-    final = rg.merge_with_existing(existing, auto_block, template) if existing else rendered
-    # Since the whole file is template-rendered fresh each run (manual
-    # content lives in profile.config.yml, not hand-edited README
-    # prose), we always use `rendered` — merge_with_existing is kept
-    # available for any freeform manual zones added by a user later.
-    final = rendered
-
     with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(final)
+        f.write(rendered)
 
     print(f"Generated README.md ({len(repos)} repos analyzed, "
           f"{sum(len(v) for v in tech_agg['categories'].values())} technologies detected).")

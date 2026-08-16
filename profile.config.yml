@@ -1,15 +1,10 @@
 # ══════════════════════════════════════════════════════════════════
 # profile.config.yml
 # Manual source of truth for the GitHub Profile Portfolio system.
-#
-# Everything in this file is MANUAL — the automation never overwrites
-# it and never invents values for empty fields. Fill in whatever you
-# want to appear; leave the rest blank and the README generator will
-# simply omit that content instead of guessing.
 # ══════════════════════════════════════════════════════════════════
 
 profile:
-  name: "Faiaz Rahman Fahim"
+  name: "Md Al Faiaz Rahman Fahim"
   username: "FaiazRahmanFahim"
   title: "Full-Stack Developer & Software Engineer"
 
@@ -17,30 +12,53 @@ profile:
   tagline: "BUILD • BREAK • DEBUG • REPEAT"
 
   location: "Dhaka, Bangladesh"
-  timezone: ""
+  timezone: "Asia/Dhaka"
 
 about:
   # Short paragraph used as a fallback for the "AI Quick Introduction"
-  # section if not enough repository/activity signal is available.
-  summary: ""
+  summary: "Passionate Full-Stack Developer and Software Engineer focused on crafting modern, high-performance web applications with delightful user experiences. Constantly experimenting, solving challenging engineering problems, and turning creative ideas into impactful code."
 
-  # Free-form bullet points — only rendered if non-empty.
-  who_i_am: []
-  what_im_building: []
-  what_i_care_about: []
-  what_im_working_toward: []
-  what_id_like_to_collaborate_on: []
+  who_i_am:
+    - "🚀 Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh"
+    - "💻 Passionate about building responsive, modern, and accessible web experiences"
+    - "⚡ Quick learner who loves diving deep into algorithms, clean architecture, and modern frameworks"
 
-  current_focus: []      # e.g. "Deepening TypeScript & Node.js backend skills"
+  what_im_building:
+    - "Modern full-stack web applications with React, TypeScript, and Tailwind CSS"
+    - "Scalable backend architectures, RESTful APIs, and database-driven solutions"
 
-  learning: []            # e.g. "System design fundamentals"
+  what_i_care_about:
+    - "Clean, maintainable, and well-structured codebases"
+    - "Intuitive UI/UX design with smooth micro-interactions"
+    - "Continuous learning, open collaboration, and engineering excellence"
 
-  interests: []
+  what_im_working_toward:
+    - "Mastering advanced full-stack systems with Next.js, Node.js, and ASP.NET Core"
+    - "Contributing to meaningful open-source software and developer tooling"
 
-  philosophy: []          # short, punchy lines — e.g. "Ship, measure, improve"
+  what_id_like_to_collaborate_on:
+    - "Exciting full-stack web products, open-source projects, and developer tools"
+
+  current_focus:
+    - "Full-Stack Web Development (React, TypeScript, Tailwind CSS, Node.js, ASP.NET)"
+    - "Modern Frontend Architecture & Performance Optimization"
+
+  learning:
+    - "Next.js & Server-Side Rendering (SSR)"
+    - "System Design, Microservices & Scalable Cloud Deployments"
+    - "Advanced TypeScript and Data Structures & Algorithms"
+
+  interests:
+    - "Full-Stack Web Development"
+    - "UI/UX Design & Frontend Micro-interactions"
+    - "Software Engineering & Open Source"
+
+  philosophy:
+    - "Build • Break • Debug • Repeat"
+    - "Write code that humans can read and machines can execute efficiently"
+    - "Consistency, curiosity, and relentless debugging compound into mastery"
 
 social:
-  github: "https://github.com/FaiazRahmanFahim"
   portfolio: "https://alfaiaz-portfolio.surge.sh/"
   linkedin: "https://www.linkedin.com/in/mafrfahim31/"
   email: "faiazrahman12.std@gmail.com"
@@ -56,17 +74,11 @@ repositories:
   scan_all_public: true
   include_forks: false
   include_archived: false
-  # Repos to hide from every generated section regardless of activity.
   exclude:
     - "test"
 
-# Repos manually marked as "currently building" regardless of what
-# recency scoring would otherwise suggest. Leave empty to let the
-# scoring algorithm decide automatically.
 current_projects: []
 
-# Manually pin/prioritize specific repos in "Featured Projects".
-# Anything not listed here is still eligible via automatic scoring.
 featured_projects:
   - repo: ""
     priority: 10

@@ -1,57 +1,89 @@
-<svg viewBox="0 0 700 272" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology ecosystem diagram">
+<svg viewBox="0 0 720 324" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology ecosystem diagram">
 <style>
-  .bg   { fill: #ffffff; }
-  .fg   { fill: #1f2328; }
-  .muted{ fill: #57606a; }
-  .line { stroke: #d0d7de; }
-  .node { fill: #f6f8fa; stroke: #d0d7de; }
-  .accent { fill: #58A6FF; }
-  .bar  { fill: #58A6FF; }
+  .bg       { fill: #ffffff; stroke: #e1e4e8; stroke-width: 1; }
+  .fg       { fill: #24292f; }
+  .muted    { fill: #57606a; }
+  .line     { stroke: #d0d7de; }
+  .node     { fill: #f6f8fa; stroke: #d0d7de; }
+  .node-txt { fill: #0969da; font-weight: 600; }
+  .accent   { fill: #0969da; }
+  .bar-bg   { fill: #eaeef2; }
+  .bar      { fill: url(#blueGradient); }
   @media (prefers-color-scheme: dark) {
-    .bg   { fill: #0d1117; }
-    .fg   { fill: #e6edf3; }
-    .muted{ fill: #8b949e; }
-    .line { stroke: #30363d; }
-    .node { fill: #161b22; stroke: #30363d; }
-    .accent { fill: #79c0ff; }
-    .bar  { fill: #79c0ff; }
+    .bg       { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .fg       { fill: #f0f6fc; }
+    .muted    { fill: #8b949e; }
+    .line     { stroke: #30363d; }
+    .node     { fill: #161b22; stroke: #30363d; }
+    .node-txt { fill: #58a6ff; font-weight: 600; }
+    .accent   { fill: #58a6ff; }
+    .bar-bg   { fill: #21262d; }
+    .bar      { fill: url(#darkBlueGradient); }
   }
-  text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
 </style>
-<rect class="bg" x="0" y="0" width="700" height="272" rx="10"/>
-<text x="350.0" y="30" text-anchor="middle" class="fg" font-size="15" font-weight="600">Faiaz Rahman Fahim's Ecosystem</text>
-<line class="line" x1="350.0" y1="38" x2="135.0" y2="60" stroke-width="1.2"/>
-<rect class="node" x="65.0" y="60" width="140" height="24" rx="6" stroke-width="1"/>
-<text x="135.0" y="76" text-anchor="middle" class="fg" font-size="12" font-weight="600">Languages</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="106" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="110" text-anchor="middle" class="muted" font-size="11">HTML</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="130" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="134" text-anchor="middle" class="muted" font-size="11">CSS</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="154" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="158" text-anchor="middle" class="muted" font-size="11">JavaScript</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="178" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="182" text-anchor="middle" class="muted" font-size="11">C#</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="202" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="206" text-anchor="middle" class="muted" font-size="11">TypeScript</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="226" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="230" text-anchor="middle" class="muted" font-size="11">ASP.NET</text>
-<line class="line" x1="135.0" y1="84" x2="135.0" y2="250" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="135.0" y="254" text-anchor="middle" class="muted" font-size="11">C++</text>
-<line class="line" x1="350.0" y1="38" x2="325.0" y2="60" stroke-width="1.2"/>
-<rect class="node" x="255.0" y="60" width="140" height="24" rx="6" stroke-width="1"/>
-<text x="325.0" y="76" text-anchor="middle" class="fg" font-size="12" font-weight="600">Frontend</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="106" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="110" text-anchor="middle" class="muted" font-size="11">React</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="130" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="134" text-anchor="middle" class="muted" font-size="11">Tailwind CSS</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="154" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="158" text-anchor="middle" class="muted" font-size="11">Vite</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="178" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="182" text-anchor="middle" class="muted" font-size="11">React Router</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="202" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="206" text-anchor="middle" class="muted" font-size="11">DaisyUI</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="226" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="230" text-anchor="middle" class="muted" font-size="11">Recharts</text>
-<line class="line" x1="325.0" y1="84" x2="325.0" y2="250" stroke-width="1" stroke-dasharray="2,2"/>
-<text x="325.0" y="254" text-anchor="middle" class="muted" font-size="11">Lucide Icons</text>
+<defs>
+  <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0969da" />
+    <stop offset="100%" stop-color="#2da44e" />
+  </linearGradient>
+  <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#58a6ff" />
+    <stop offset="100%" stop-color="#39d0d8" />
+  </linearGradient>
+</defs>
+<rect class="bg" x="1" y="1" width="718" height="322" rx="12"/>
+<rect class="node" x="220.0" y="16" width="280" height="32" rx="16" stroke-width="1.5"/>
+<text x="360.0" y="37" text-anchor="middle" class="node-txt" font-size="14">Md Al Faiaz Rahman Fahim's Ecosystem</text>
+<line class="line" x1="360.0" y1="48" x2="135.0" y2="76" stroke-width="1.5"/>
+<rect class="node" x="65.0" y="76" width="140" height="26" rx="8" stroke-width="1.2"/>
+<text x="135.0" y="93" text-anchor="middle" class="fg" font-size="12" font-weight="600">Languages</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="126" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="124" r="3" class="accent"/>
+<text x="95.0" y="128" class="muted" font-size="11.5" font-weight="500">HTML</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="152" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="150" r="3" class="accent"/>
+<text x="95.0" y="154" class="muted" font-size="11.5" font-weight="500">CSS</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="178" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="176" r="3" class="accent"/>
+<text x="95.0" y="180" class="muted" font-size="11.5" font-weight="500">JavaScript</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="204" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="202" r="3" class="accent"/>
+<text x="95.0" y="206" class="muted" font-size="11.5" font-weight="500">C#</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="230" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="228" r="3" class="accent"/>
+<text x="95.0" y="232" class="muted" font-size="11.5" font-weight="500">TypeScript</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="256" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="254" r="3" class="accent"/>
+<text x="95.0" y="258" class="muted" font-size="11.5" font-weight="500">ASP.NET</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="282" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="280" r="3" class="accent"/>
+<text x="95.0" y="284" class="muted" font-size="11.5" font-weight="500">Python</text>
+<line class="line" x1="135.0" y1="102" x2="135.0" y2="308" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="85.0" cy="306" r="3" class="accent"/>
+<text x="95.0" y="310" class="muted" font-size="11.5" font-weight="500">C++</text>
+<line class="line" x1="360.0" y1="48" x2="325.0" y2="76" stroke-width="1.5"/>
+<rect class="node" x="255.0" y="76" width="140" height="26" rx="8" stroke-width="1.2"/>
+<text x="325.0" y="93" text-anchor="middle" class="fg" font-size="12" font-weight="600">Frontend</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="126" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="124" r="3" class="accent"/>
+<text x="285.0" y="128" class="muted" font-size="11.5" font-weight="500">React</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="152" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="150" r="3" class="accent"/>
+<text x="285.0" y="154" class="muted" font-size="11.5" font-weight="500">Tailwind CSS</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="178" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="176" r="3" class="accent"/>
+<text x="285.0" y="180" class="muted" font-size="11.5" font-weight="500">Vite</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="204" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="202" r="3" class="accent"/>
+<text x="285.0" y="206" class="muted" font-size="11.5" font-weight="500">DaisyUI</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="230" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="228" r="3" class="accent"/>
+<text x="285.0" y="232" class="muted" font-size="11.5" font-weight="500">React Router</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="256" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="254" r="3" class="accent"/>
+<text x="285.0" y="258" class="muted" font-size="11.5" font-weight="500">Recharts</text>
+<line class="line" x1="325.0" y1="102" x2="325.0" y2="282" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="275.0" cy="280" r="3" class="accent"/>
+<text x="285.0" y="284" class="muted" font-size="11.5" font-weight="500">Lucide Icons</text>
 </svg>
