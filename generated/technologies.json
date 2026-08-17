@@ -240,7 +240,7 @@
     {
       "language": "JavaScript",
       "bytes": 782518,
-      "percentage": 35.4
+      "percentage": 35.3
     },
     {
       "language": "HTML",
@@ -250,7 +250,7 @@
     {
       "language": "TypeScript",
       "bytes": 534567,
-      "percentage": 24.2
+      "percentage": 24.1
     },
     {
       "language": "C#",
@@ -264,8 +264,8 @@
     },
     {
       "language": "Python",
-      "bytes": 41364,
-      "percentage": 1.9
+      "bytes": 45043,
+      "percentage": 2.0
     },
     {
       "language": "CSS",
