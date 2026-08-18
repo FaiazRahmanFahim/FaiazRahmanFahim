@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="https://alfaiaz-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://alfaiaz-portfolio.surge.sh/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -53,9 +53,9 @@ Passionate Full-Stack Developer and Software Engineer focused on crafting modern
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
   <sub>`JavaScript` · 🔥 Active · updated today</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 21d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 22d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 - **[Green-nest](https://github.com/FaiazRahmanFahim/Green-nest)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 31d ago · [Live Demo](https://green-nest-firebase-auth.web.app/)</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 32d ago · [Live Demo](https://green-nest-firebase-auth.web.app/)</sub>
 
 ---
 
@@ -187,7 +187,7 @@ flowchart LR
 
 <div align="center">
 
-<a href="https://alfaiaz-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://alfaiaz-portfolio.surge.sh/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mafrfahim31/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:faiazrahman12.std@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
