@@ -24,29 +24,29 @@
 <text x="24" y="32" class="fg" font-size="14" font-weight="700">Repository Language Breakdown</text>
 <g clip-path="url(#bar-clip)">
 <clipPath id="bar-clip"><rect x="24" y="52" width="672" height="14" rx="7"/></clipPath>
-<rect x="24.0" y="52" width="247.3" height="14" fill="#F7DF1E"/>
-<rect x="271.3" y="52" width="162.0" height="14" fill="#E34F26"/>
-<rect x="433.2" y="52" width="158.6" height="14" fill="#3178C6"/>
-<rect x="591.8" y="52" width="63.8" height="14" fill="#239120"/>
+<rect x="24.0" y="52" width="250.7" height="14" fill="#F7DF1E"/>
+<rect x="274.7" y="52" width="160.6" height="14" fill="#E34F26"/>
+<rect x="435.3" y="52" width="157.2" height="14" fill="#3178C6"/>
+<rect x="592.5" y="52" width="63.2" height="14" fill="#239120"/>
 <rect x="655.7" y="52" width="18.1" height="14" fill="#00599C"/>
 <rect x="673.8" y="52" width="13.4" height="14" fill="#3776AB"/>
 </g>
 <rect class="node" x="24.0" y="90" width="326.0" height="28" rx="6" stroke-width="1"/>
 <circle cx="38.0" cy="104" r="5" fill="#F7DF1E"/>
 <text x="52.0" y="108" class="fg" font-size="12" font-weight="600">JavaScript</text>
-<text x="338.0" y="108" text-anchor="end" class="muted" font-size="11.5" font-weight="600">36.8%</text>
+<text x="338.0" y="108" text-anchor="end" class="muted" font-size="11.5" font-weight="600">37.3%</text>
 <rect class="node" x="370.0" y="90" width="326.0" height="28" rx="6" stroke-width="1"/>
 <circle cx="384.0" cy="104" r="5" fill="#E34F26"/>
 <text x="398.0" y="108" class="fg" font-size="12" font-weight="600">HTML</text>
-<text x="684.0" y="108" text-anchor="end" class="muted" font-size="11.5" font-weight="600">24.1%</text>
+<text x="684.0" y="108" text-anchor="end" class="muted" font-size="11.5" font-weight="600">23.9%</text>
 <rect class="node" x="24.0" y="128" width="326.0" height="28" rx="6" stroke-width="1"/>
 <circle cx="38.0" cy="142" r="5" fill="#3178C6"/>
 <text x="52.0" y="146" class="fg" font-size="12" font-weight="600">TypeScript</text>
-<text x="338.0" y="146" text-anchor="end" class="muted" font-size="11.5" font-weight="600">23.6%</text>
+<text x="338.0" y="146" text-anchor="end" class="muted" font-size="11.5" font-weight="600">23.4%</text>
 <rect class="node" x="370.0" y="128" width="326.0" height="28" rx="6" stroke-width="1"/>
 <circle cx="384.0" cy="142" r="5" fill="#239120"/>
 <text x="398.0" y="146" class="fg" font-size="12" font-weight="600">C#</text>
-<text x="684.0" y="146" text-anchor="end" class="muted" font-size="11.5" font-weight="600">9.5%</text>
+<text x="684.0" y="146" text-anchor="end" class="muted" font-size="11.5" font-weight="600">9.4%</text>
 <rect class="node" x="24.0" y="166" width="326.0" height="28" rx="6" stroke-width="1"/>
 <circle cx="38.0" cy="180" r="5" fill="#00599C"/>
 <text x="52.0" y="184" class="fg" font-size="12" font-weight="600">C++</text>

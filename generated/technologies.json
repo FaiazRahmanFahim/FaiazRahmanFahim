@@ -239,23 +239,23 @@
   "language_distribution": [
     {
       "language": "JavaScript",
-      "bytes": 833563,
-      "percentage": 36.8
+      "bytes": 851776,
+      "percentage": 37.3
     },
     {
       "language": "HTML",
       "bytes": 546497,
-      "percentage": 24.1
+      "percentage": 23.9
     },
     {
       "language": "TypeScript",
       "bytes": 534567,
-      "percentage": 23.6
+      "percentage": 23.4
     },
     {
       "language": "C#",
       "bytes": 215393,
-      "percentage": 9.5
+      "percentage": 9.4
     },
     {
       "language": "C++",
