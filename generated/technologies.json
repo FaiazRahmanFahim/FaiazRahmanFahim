@@ -239,38 +239,38 @@
   "language_distribution": [
     {
       "language": "JavaScript",
-      "bytes": 906779,
-      "percentage": 38.7
+      "bytes": 1014353,
+      "percentage": 41.4
     },
     {
       "language": "HTML",
       "bytes": 546497,
-      "percentage": 23.3
+      "percentage": 22.3
     },
     {
       "language": "TypeScript",
       "bytes": 534567,
-      "percentage": 22.8
+      "percentage": 21.8
     },
     {
       "language": "C#",
       "bytes": 215393,
-      "percentage": 9.2
+      "percentage": 8.8
     },
     {
       "language": "C++",
       "bytes": 62031,
-      "percentage": 2.7
+      "percentage": 2.5
     },
     {
       "language": "Python",
       "bytes": 45043,
-      "percentage": 1.9
+      "percentage": 1.8
     },
     {
       "language": "CSS",
       "bytes": 30101,
-      "percentage": 1.3
+      "percentage": 1.2
     },
     {
       "language": "ASP.NET",
