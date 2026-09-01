@@ -51,9 +51,9 @@ Passionate Full-Stack Developer and Software Engineer focused on crafting modern
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated 2d ago</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 3d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 36d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 37d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
 ---
 
