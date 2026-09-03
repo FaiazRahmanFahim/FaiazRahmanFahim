@@ -203,7 +203,7 @@ flowchart LR
 | Architectural Layer | Core Technologies | Engineering Focus |
 | :--- | :--- | :--- |
 | **🌐 Frontend & Mobile** | `Next.js`, `React`, `React Native (Expo)`, `Vite` | App Router SSR/SSG, cross-platform UI, fast HMR, component isolation |
-| **🎨 UI Design & Visuals** | `Tailwind CSS 4`, `DaisyUI 5`, `Radix UI`, `Framer Motion` | Fluid animations, accessible headless primitives, responsive design systems |
+| **🎨 UI Design & Visuals** | `Tailwind CSS`, `DaisyUI`, `Radix UI`, `Framer Motion` | Fluid animations, accessible headless primitives, responsive design systems |
 | **⚙️ Backend & API Design** | `NestJS`, `Node.js`, `Express`, `ASP.NET Core` | Modular architecture, REST APIs, DTO validation (`class-validator`), RxJS |
 | **🔐 Auth & Security** | `JWT`, `Passport.js`, `Firebase Auth`, `Bcrypt` | Token lifecycle, route guards, secure password hashing, cookie management |
 | **🗄️ Databases & ORMs** | `PostgreSQL`, `MySQL`, `MongoDB`, `SQL Server`, `Prisma`, `TypeORM` | Relational & document modeling, schema migrations, query optimization |
@@ -230,8 +230,8 @@ flowchart LR
 **🌐 Frontend & Mobile Technologies**
 ```
 • Next.js (App Router) • React              • React Native (Expo) • Vite
-• Tailwind CSS 4 / 3   • DaisyUI 5          • Radix UI Primitives • Flowbite React
-• Framer Motion        • Swiper             • React Router 7      • React Tabs
+• Tailwind CSS         • DaisyUI            • Radix UI Primitives • Flowbite React
+• Framer Motion        • Swiper             • React Router        • React Tabs
 • Recharts / Chart.js  • Sonner / Toastify  • Lucide Icons        • React Icons
 ```
 
@@ -262,7 +262,7 @@ flowchart LR
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
   <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
@@ -271,7 +271,7 @@ flowchart LR
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">

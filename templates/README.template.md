@@ -203,7 +203,7 @@ flowchart LR
 | Architectural Layer | Core Technologies | Engineering Focus |
 | :--- | :--- | :--- |
 | **🌐 Frontend & Mobile** | `Next.js`, `React`, `React Native (Expo)`, `Vite` | App Router SSR/SSG, cross-platform UI, fast HMR, component isolation |
-| **🎨 UI Design & Visuals** | `Tailwind CSS 4`, `DaisyUI 5`, `Radix UI`, `Framer Motion` | Fluid animations, accessible headless primitives, responsive design systems |
+| **🎨 UI Design & Visuals** | `Tailwind CSS`, `DaisyUI`, `Radix UI`, `Framer Motion` | Fluid animations, accessible headless primitives, responsive design systems |
 | **⚙️ Backend & API Design** | `NestJS`, `Node.js`, `Express`, `ASP.NET Core` | Modular architecture, REST APIs, DTO validation (`class-validator`), RxJS |
 | **🔐 Auth & Security** | `JWT`, `Passport.js`, `Firebase Auth`, `Bcrypt` | Token lifecycle, route guards, secure password hashing, cookie management |
 | **🗄️ Databases & ORMs** | `PostgreSQL`, `MySQL`, `MongoDB`, `SQL Server`, `Prisma`, `TypeORM` | Relational & document modeling, schema migrations, query optimization |
@@ -230,8 +230,8 @@ flowchart LR
 **🌐 Frontend & Mobile Technologies**
 ```
 • Next.js (App Router) • React              • React Native (Expo) • Vite
-• Tailwind CSS 4 / 3   • DaisyUI 5          • Radix UI Primitives • Flowbite React
-• Framer Motion        • Swiper             • React Router 7      • React Tabs
+• Tailwind CSS         • DaisyUI            • Radix UI Primitives • Flowbite React
+• Framer Motion        • Swiper             • React Router        • React Tabs
 • Recharts / Chart.js  • Sonner / Toastify  • Lucide Icons        • React Icons
 ```
 
