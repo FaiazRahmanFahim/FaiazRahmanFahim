@@ -121,3 +121,54 @@ class GitHubClient:
             return base64.b64decode(data["content"]).decode("utf-8", errors="ignore")
         except Exception:
             return None
+
+    def get_pinned_repos(self) -> list[str]:
+        """Fetch list of pinned repository names via GraphQL or HTML scrape fallback."""
+        if self.token:
+            gql_query = """
+            query($username: String!) {
+              user(login: $username) {
+                pinnedItems(first: 6, types: REPOSITORY) {
+                  nodes {
+                    ... on Repository {
+                      name
+                    }
+                  }
+                }
+              }
+            }
+            """
+            req = urllib.request.Request(f"{API_ROOT}/graphql")
+            req.add_header("Authorization", f"Bearer {self.token}")
+            req.add_header("User-Agent", f"{self.username}-profile-bot")
+            req.add_header("Content-Type", "application/json")
+            body = json.dumps({"query": gql_query, "variables": {"username": self.username}}).encode("utf-8")
+            try:
+                with urllib.request.urlopen(req, data=body, timeout=15) as resp:
+                    res = json.loads(resp.read().decode("utf-8"))
+                    nodes = res.get("data", {}).get("user", {}).get("pinnedItems", {}).get("nodes", [])
+                    if nodes:
+                        return [n["name"] for n in nodes if "name" in n]
+            except Exception as e:
+                print(f"[github_client] GraphQL pinned query failed: {e}", file=sys.stderr)
+
+        # Fallback: scrape public profile HTML
+        try:
+            import re
+            profile_url = f"https://github.com/{self.username}"
+            req = urllib.request.Request(profile_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+                pinned = re.findall(r'<span class="repo" title="([^"]+)">', html)
+                if not pinned:
+                    pinned = re.findall(r'class="repo"[^>]*title="([^"]+)"', html)
+                if not pinned:
+                    # Look inside js-pinned-items-reorder-list
+                    pinned = re.findall(rf'href="/{self.username}/([a-zA-Z0-9_\-\.]+)"', html)
+                    pinned = [p for p in pinned if p not in ("followers", "following", "stars", "projects", "packages", "tab=repositories", "tab=stars", "tab=projects", "tab=packages")]
+                seen = set()
+                deduped = [x for x in pinned if not (x in seen or seen.add(x))]
+                return deduped[:6]
+        except Exception as e:
+            print(f"[github_client] HTML pinned scrape failed: {e}", file=sys.stderr)
+            return []

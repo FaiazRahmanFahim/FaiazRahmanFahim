@@ -21,19 +21,40 @@ TECH_BADGE_MAP = {
     "C++": ("C%2B%2B", "00599C", "cplusplus", "white"),
     "Python": ("Python", "3776AB", "python", "white"),
     "ASP.NET": ("ASP.NET", "512BD4", "dotnet", "white"),
+    "SQL": ("SQL", "CC292B", "mysql", "white"),
 
-    # Frontend
+    # Frontend & Mobile
+    "Next.js": ("Next.js", "000000", "nextdotjs", "white"),
     "React": ("React", "20232A", "react", "61DAFB"),
+    "React Native": ("React_Native", "20232A", "react", "61DAFB"),
+    "Expo": ("Expo", "000020", "expo", "white"),
     "Tailwind CSS": ("Tailwind_CSS", "38B2AC", "tailwindcss", "white"),
     "Vite": ("Vite", "646CFF", "vite", "FFD62E"),
     "React Router": ("React_Router", "CA4245", "reactrouter", "white"),
     "DaisyUI": ("DaisyUI", "5AD7CD", "daisyui", "black"),
+    "Radix UI": ("Radix_UI", "161618", "radixui", "white"),
+    "Framer Motion": ("Framer_Motion", "0055FF", "framer", "white"),
+    "Swiper": ("Swiper", "6332F6", "swiper", "white"),
     "Recharts": ("Recharts", "22B5BF", "chartdotjs", "white"),
     "Lucide Icons": ("Lucide", "F56565", "feather", "white"),
 
     # Backend & Database
+    "NestJS": ("NestJS", "E0234E", "nestjs", "white"),
     "Node.js": ("Node.js", "339933", "nodedotjs", "white"),
+    "Express": ("Express", "000000", "express", "white"),
+    "PostgreSQL": ("PostgreSQL", "4169E1", "postgresql", "white"),
+    "MySQL": ("MySQL", "4479A1", "mysql", "white"),
+    "MongoDB": ("MongoDB", "47A248", "mongodb", "white"),
+    "Microsoft SQL Server": ("Microsoft_SQL_Server", "CC292B", "microsoftsqlserver", "white"),
+    "Prisma": ("Prisma", "2D3748", "prisma", "white"),
+    "TypeORM": ("TypeORM", "FE0803", "typeorm", "white"),
+    "JWT": ("JWT_Auth", "000000", "jsonwebtokens", "white"),
+    "Passport.js": ("Passport_JWT", "34E0A1", "passport", "black"),
     "Firebase": ("Firebase", "FFCA28", "firebase", "black"),
+    "Firebase Auth": ("Firebase_Auth", "FFCA28", "firebase", "black"),
+    "Firestore": ("Firestore", "FFCA28", "firebase", "black"),
+    "Firebase Hosting": ("Firebase_Hosting", "039BE5", "firebase", "white"),
+    "Jest": ("Jest", "C21325", "jest", "white"),
     ".NET": (".NET", "512BD4", "dotnet", "white"),
 
     # Tools & DevOps
@@ -242,3 +263,91 @@ def merge_with_existing(existing_readme: str | None, rendered_auto_block: str, f
 
     pattern = re.compile(re.escape(AUTO_START) + r".*?" + re.escape(AUTO_END), re.DOTALL)
     return pattern.sub(f"{AUTO_START}\n{rendered_auto_block}\n{AUTO_END}", fallback_template)
+
+
+def render_featured_projects(pinned_names: list[str], repos_by_name: dict[str, dict], tech_by_repo: dict[str, list[str]]) -> str:
+    """Render 2-column showcase table dynamically for pinned repositories."""
+    pinned = [name for name in pinned_names if name and name != "FaiazRahmanFahim"]
+    if not pinned:
+        pinned = [r for r in repos_by_name if r != "FaiazRahmanFahim"][:4]
+
+    CURATED_DETAILS = {
+        "Hotel-Reservation-System": {
+            "title": "🏨 Hotel Reservation & Management System",
+            "desc": "Full-stack enterprise hotel management and booking system with multi-criteria room filtering, reservation lifecycles, role-based access, and administrative analytics.",
+            "demo": "https://faiazrahmanfahim.github.io/Hotel-Reservation-System/",
+            "techs": ["Next.js", "React", "TypeScript", "NestJS", "PostgreSQL", "Prisma", "JWT", "Radix UI"]
+        },
+        "Green-nest": {
+            "title": "🌿 GreenNest — Plant Care & Eco Platform",
+            "desc": "Deployed plant enthusiast platform with user authentication, protected routes, curated decor showcases, and real-time cloud data synchronization.",
+            "demo": "https://green-nest-firebase-auth.web.app/",
+            "techs": ["React", "Vite", "Firebase Auth", "Firestore", "Firebase Hosting", "Tailwind CSS", "Swiper"]
+        },
+        "Infinite-Cinema-Series-Network-ICSN": {
+            "title": "🎬 Infinite Cinema & Series Network (ICSN)",
+            "desc": "Interactive entertainment and media discovery web application featuring fluid Framer Motion route animations, responsive touch-swipe carousels, and modern dark aesthetics.",
+            "demo": "",
+            "techs": ["React", "Vite", "Tailwind CSS", "Framer Motion", "Swiper", "React Router"]
+        },
+        "TG-Project": {
+            "title": "📱 Cross-Platform Mobile & API System",
+            "desc": "Cross-platform mobile application and backend service featuring native bottom-tab navigation, modular NestJS REST API architecture, and token lifecycle management.",
+            "demo": "",
+            "techs": ["React Native", "Expo", "NestJS", "TypeScript", "PostgreSQL", "TypeORM", "Passport.js", "Jest"]
+        },
+        "Hero-Apps": {
+            "title": "📊 Hero Apps Portal & Analytics",
+            "desc": "Comprehensive app store showcase portal featuring installation tracking, dynamic metric counters, interactive data analytics charts, and responsive navigation.",
+            "demo": "https://hero-apps-mafrf.surge.sh/",
+            "techs": ["React", "Vite", "Tailwind CSS", "DaisyUI", "Recharts", "React Router"]
+        },
+        "book-shop-management": {
+            "title": "📚 Book Shop Management Enterprise",
+            "desc": "Enterprise inventory and sales tracking solution built with C# and ASP.NET on the .NET Framework, backed by Microsoft SQL Server database backup tiers (.bacpac).",
+            "demo": "",
+            "techs": ["C#", "ASP.NET", "Microsoft SQL Server", "SQL"]
+        }
+    }
+
+    rows = []
+    for i in range(0, len(pinned), 2):
+        pair = pinned[i:i+2]
+        cells = []
+        for name in pair:
+            repo = repos_by_name.get(name, {})
+            details = CURATED_DETAILS.get(name, {})
+            title = details.get("title") or f"📦 {name.replace('-', ' ').title()}"
+            desc = details.get("desc") or repo.get("description") or "Full-stack software application built with modern engineering practices."
+            demo_url = details.get("demo") or repo.get("homepage")
+            source_url = repo.get("html_url") or f"https://github.com/FaiazRahmanFahim/{name}"
+            
+            techs = details.get("techs") or tech_by_repo.get(name, [])
+            if not techs and repo.get("language"):
+                techs = [repo["language"]]
+
+            demo_badge = ""
+            if demo_url:
+                demo_badge = f'\n        <a href="{demo_url}"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>'
+
+            badges_html = " ".join([_render_badge(t) for t in techs])
+
+            cell = f"""    <td width="50%" valign="top">
+      <h3 align="center">{title}</h3>
+      <p align="center">
+        <a href="{source_url}"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>{demo_badge}
+      </p>
+      <p>{desc}</p>
+      <p>
+        {badges_html}
+      </p>
+    </td>"""
+            cells.append(cell)
+
+        if len(cells) == 1:
+            cells.append('    <td width="50%" valign="top"></td>')
+
+        row_content = "  <tr>\n" + "\n".join(cells) + "\n  </tr>"
+        rows.append(row_content)
+
+    return "<table>\n" + "\n".join(rows) + "\n</table>"

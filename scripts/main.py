@@ -201,6 +201,14 @@ def main():
     template = open(TEMPLATE_PATH, "r", encoding="utf-8").read()
     auto_block = build_auto_block(repos, tech_agg, stats, classifications, username)
 
+    pinned_names = client.get_pinned_repos()
+    repos_by_name = {r["name"]: r for r in repos}
+    tech_by_repo = {
+        r["name"]: [t["technology"] for t in per_repo_tech.get(r["name"], {}).get("technologies", [])]
+        for r in repos
+    }
+    featured_projects_html = rg.render_featured_projects(pinned_names, repos_by_name, tech_by_repo)
+
     rendered = (
         template.replace("{{NAME}}", profile.get("name", ""))
         .replace("{{USERNAME}}", username)
@@ -209,6 +217,7 @@ def main():
         .replace("{{HERO_LINKS}}", build_hero_links(config.get("social", {})))
         .replace("{{AI_INTRO}}", build_ai_intro(config, top_langs_for_intro, top_repo_name, about.get("current_focus", [])))
         .replace("{{ABOUT_ME}}", build_about_me(config))
+        .replace("{{FEATURED_PROJECTS}}", featured_projects_html)
         .replace("{{AUTO_BLOCK}}", auto_block)
         .replace("{{PHILOSOPHY}}", rg.render_config_list(about.get("philosophy"), "Build • Break • Debug • Repeat"))
         .replace("{{SOCIAL_LINKS}}", rg.render_social_links(config.get("social", {})))

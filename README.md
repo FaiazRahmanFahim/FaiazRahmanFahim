@@ -34,7 +34,7 @@ I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, 
 
 ## 🏆 Featured Projects
 
-A curated selection of full-stack, mobile, and interactive systems extracted directly from active repositories:
+A dynamic showcase of projects pinned directly on my GitHub profile:
 
 <table>
   <tr>
@@ -46,31 +46,18 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       </p>
       <p>Full-stack enterprise hotel management and booking system with multi-criteria room filtering, reservation lifecycles, role-based access, and administrative analytics.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT_Auth-black?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-        <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="24" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" height="24" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" height="24" /> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" height="24" /> <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" height="24" /> <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI" height="24" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">📱 Cross-Platform Mobile & API System</h3>
+      <h3 align="center">🌿 GreenNest — Plant Care & Eco Platform</h3>
       <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/TG-Project"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
+        <a href="https://github.com/FaiazRahmanFahim/Green-nest"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
+        <a href="https://green-nest-firebase-auth.web.app/"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
       </p>
-      <p>Cross-platform mobile application and backend service featuring native bottom-tab navigation, modular NestJS REST API architecture, and token lifecycle management.</p>
+      <p>Deployed plant enthusiast platform with user authentication, protected routes, curated decor showcases, and real-time cloud data synchronization.</p>
       <p>
-        <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
-        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white" />
-        <img src="https://img.shields.io/badge/Passport_JWT-34E0A1?style=flat-square&logo=passport&logoColor=black" />
-        <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase Auth" height="24" /> <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firestore" height="24" /> <img src="https://img.shields.io/badge/Firebase_Hosting-039BE5?style=flat-square&logo=firebase&logoColor=white" alt="Firebase Hosting" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" />
       </p>
     </td>
   </tr>
@@ -80,65 +67,12 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       <p align="center">
         <a href="https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
       </p>
-      <p>Interactive entertainment and media discovery web application featuring fluid fluid Framer Motion route animations, responsive touch-swipe carousels, and modern dark aesthetics.</p>
+      <p>Interactive entertainment and media discovery web application featuring fluid Framer Motion route animations, responsive touch-swipe carousels, and modern dark aesthetics.</p>
       <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-        <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🌿 GreenNest — Plant Care & Eco Platform</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Green-nest"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-        <a href="https://green-nest-firebase-auth.web.app/"><img src="https://img.shields.io/badge/Live_Demo-39D0D8?style=flat-square&logo=firebase&logoColor=black" alt="Live Demo" /></a>
-      </p>
-      <p>Deployed plant enthusiast platform with user authentication, protected routes, curated decor showcases, and real-time cloud data synchronization.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-        <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-        <img src="https://img.shields.io/badge/Firebase_Hosting-039BE5?style=flat-square&logo=firebase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📊 Hero Apps Portal & Analytics</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Hero-Apps"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-        <a href="https://hero-apps-mafrf.surge.sh/"><img src="https://img.shields.io/badge/Live_Demo-F778BA?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-      </p>
-      <p>Comprehensive app store showcase portal featuring installation tracking, dynamic metric counters, interactive data analytics charts, and responsive navigation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/DaisyUI-5AD7CD?style=flat-square&logo=daisyui&logoColor=black" />
-        <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📚 Book Shop Management Enterprise</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/book-shop-management"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-      </p>
-      <p>Enterprise inventory and sales tracking solution built with C# and ASP.NET on the .NET Framework, backed by Microsoft SQL Server database backup tiers (.bacpac).</p>
-      <p>
-        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
-        <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/.NET_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-        <img src="https://img.shields.io/badge/T--SQL-CC292B?style=flat-square" />
-      </p>
-    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -262,7 +196,7 @@ flowchart LR
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
   <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
@@ -271,7 +205,7 @@ flowchart LR
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">
