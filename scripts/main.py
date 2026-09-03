@@ -118,25 +118,7 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
     # 1. Currently building (Active work only)
     blocks.append("### 🔥 Currently Building\n\n" + rg.render_currently_building(repos, classifications))
 
-    # 2. System Architecture & Tech Flow
-    blocks.append("### 🏗️ Full-Stack Application Architecture\n\n" + rg.render_architecture())
-
-    # 3. Skills & Tools with Icon Badges
-    skills_content = [
-        '<div align="center">\n',
-        '  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,cs,cpp,dotnet,python,firebase,git,github,vscode,figma,postman" alt="Tech Stack Icons" />\n',
-        '</div>\n',
-        rg.render_skills(categories)
-    ]
-    blocks.append("### 🧠 Skills & Tech Stack\n\n" + "\n".join(skills_content))
-
-    # 4. Technology ecosystem diagram
-    blocks.append(
-        "### 🌳 Technology Ecosystem\n\n"
-        f'<img src="./generated/technology-ecosystem.svg" alt="Technology ecosystem diagram" width="100%"/>'
-    )
-
-    # 5. Analytics cards & badges (No markdown table)
+    # 2. Analytics cards & badges (No markdown table)
     analytics_content = [
         '<div align="center">',
         '  ' + rg.render_analytics_badges(stats),

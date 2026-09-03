@@ -15,51 +15,31 @@ profile:
   timezone: "Asia/Dhaka"
 
 about:
-  # Short paragraph used as a fallback for the "AI Quick Introduction"
-  summary: "Passionate Full-Stack Developer and Software Engineer focused on crafting modern, high-performance web applications with delightful user experiences. Constantly experimenting, solving challenging engineering problems, and turning creative ideas into impactful code."
+  summary: "Full-Stack Developer & Software Engineer with a vibe-coder mindset — pairing strong engineering fundamentals in Next.js, NestJS, and TypeScript with AI-assisted workflows and rapid prototyping to turn ambitious product ideas into high-performance, polished software."
 
   who_i_am:
-    - "🚀 Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh"
-    - "💻 Passionate about building responsive, modern, and accessible web experiences"
-    - "⚡ Quick learner who loves diving deep into algorithms, clean architecture, and modern frameworks"
-
-  what_im_building:
-    - "Modern full-stack web applications with React, TypeScript, and Tailwind CSS"
-    - "Scalable backend architectures, RESTful APIs, and database-driven solutions"
-
-  what_i_care_about:
-    - "Clean, maintainable, and well-structured codebases"
-    - "Intuitive UI/UX design with smooth micro-interactions"
-    - "Continuous learning, open collaboration, and engineering excellence"
-
-  what_im_working_toward:
-    - "Mastering advanced full-stack systems with Next.js, Node.js, and ASP.NET Core"
-    - "Contributing to meaningful open-source software and developer tooling"
-
-  what_id_like_to_collaborate_on:
-    - "Exciting full-stack web products, open-source projects, and developer tools"
+    - "Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh, building modern web and mobile architectures."
+    - "Vibe Coder at heart: leveraging AI-augmented tooling, rapid experimentation, and intuitive product thinking to ship fast without sacrificing code quality."
+    - "Engineer who values end-to-end craftsmanship — from modular backend APIs and relational databases to fluid, accessible user interfaces."
 
   current_focus:
-    - "Full-Stack Web Development (React, TypeScript, Tailwind CSS, Node.js, ASP.NET)"
-    - "Modern Frontend Architecture & Performance Optimization"
-
-  learning:
-    - "Next.js & Server-Side Rendering (SSR)"
-    - "System Design, Microservices & Scalable Cloud Deployments"
-    - "Advanced TypeScript and Data Structures & Algorithms"
+    - "Production-grade full-stack architectures with Next.js 15 (App Router), React 19, TypeScript, and NestJS"
+    - "Robust backend API engineering, secure JWT/Passport auth flows, and PostgreSQL data modeling via Prisma & TypeORM"
+    - "Modern UI systems and micro-interactions using Tailwind CSS 4, Radix UI primitives, and Framer Motion"
 
   interests:
-    - "Full-Stack Web Development"
-    - "UI/UX Design & Frontend Micro-interactions"
-    - "Software Engineering & Open Source"
+    - "Full-Stack & Mobile Engineering (Next.js, NestJS, React Native / Expo, ASP.NET Core)"
+    - "AI-Assisted Development & Developer Productivity Workflows"
+    - "API Design, Authentication Systems & Relational Database Architecture"
+    - "Visual Technical Storytelling & Interactive UI/UX Design"
 
   philosophy:
-    - "Build • Break • Debug • Repeat"
-    - "Write code that humans can read and machines can execute efficiently"
-    - "Consistency, curiosity, and relentless debugging compound into mastery"
+    - "Build with architecture in mind, iterate with the velocity of a vibe coder."
+    - "Write type-safe, maintainable code that humans can understand and machines can execute efficiently."
+    - "Consistency, creative curiosity, and relentless debugging compound into engineering mastery."
 
 social:
-  portfolio: "https://alfaiaz-portfolio.surge.sh/"
+  portfolio: "https://alfaiaz-portfolio.vercel.app/"
   linkedin: "https://www.linkedin.com/in/mafrfahim31/"
   email: "faiazrahman12.std@gmail.com"
 
