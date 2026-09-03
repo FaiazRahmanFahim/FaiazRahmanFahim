@@ -43,13 +43,23 @@ CATEGORY_TITLES = {
 }
 
 LANGUAGE_COLORS = {
-    "JavaScript": "#F7DF1E",
-    "HTML": "#E34F26",
+    "JavaScript": "#F1E05A",
+    "HTML": "#E34C26",
     "TypeScript": "#3178C6",
-    "C#": "#239120",
-    "C++": "#00599C",
-    "Python": "#3776AB",
-    "CSS": "#1572B6",
+    "CSS": "#563D7C",
+    "C#": "#178600",
+    "C++": "#F34B7D",
+    "Python": "#3572A5",
+    "Shell": "#89E051",
+    "PowerShell": "#012456",
+    "SCSS": "#C6538C",
+    "PHP": "#4F5D95",
+    "Java": "#B07219",
+    "C": "#555555",
+    "Go": "#00ADD8",
+    "Rust": "#DEA584",
+    "Dart": "#00B4AB",
+    "ASP.NET": "#512BD4",
 }
 
 
@@ -85,8 +95,10 @@ def technology_ecosystem_svg(categories: dict[str, list[dict]], root_label: str)
     return "\n".join(parts)
 
 
-def language_distribution_svg(language_distribution: list[dict], max_langs: int = 6) -> str:
-    langs = language_distribution[:max_langs]
+def language_distribution_svg(language_distribution: list[dict], max_langs: int = 8) -> str:
+    langs = [lang for lang in language_distribution if lang.get("percentage", 0) >= 0.5][:max_langs]
+    if not langs:
+        langs = language_distribution[:max_langs]
     if not langs:
         return ""
 
@@ -97,7 +109,6 @@ def language_distribution_svg(language_distribution: list[dict], max_langs: int 
     bar_y = 52
 
     # Calculate grid layout for language pills (2 columns)
-    cols = 2
     row_count = (len(langs) + 1) // 2
     height = 90 + row_count * 38
 
