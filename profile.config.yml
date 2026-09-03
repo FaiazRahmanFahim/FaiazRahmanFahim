@@ -15,7 +15,7 @@ profile:
   timezone: "Asia/Dhaka"
 
 about:
-  summary: "Full-Stack Developer & Software Engineer with a vibe-coder mindset — primarily building modern MERN stack applications with tailored PostgreSQL, MySQL, and MongoDB databases, custom authentication/authorization systems, and AI-augmented rapid prototyping."
+  summary: "Full-Stack Developer & Software Engineer with a vibe-coder mindset — primarily building modern MERN stack applications with tailored PostgreSQL, MySQL, MongoDB, and other database solutions, custom authentication/authorization systems, and AI-augmented rapid prototyping."
 
   who_i_am:
     - "Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh, specialized in scalable web and mobile applications."
@@ -25,7 +25,7 @@ about:
   current_focus:
     - "Modern MERN full-stack development, React, Next.js (App Router), and TypeScript"
     - "Custom authentication & authorization systems (JWT, Passport.js, Firebase Auth, RBAC)"
-    - "Tailored database architecture using PostgreSQL, MySQL, and MongoDB (Prisma & TypeORM)"
+    - "Tailored database architecture using PostgreSQL, MySQL, MongoDB, and other databases"
 
   interests:
     - "Full-Stack & Mobile Engineering (Next.js, NestJS, React Native / Expo, ASP.NET Core)"
