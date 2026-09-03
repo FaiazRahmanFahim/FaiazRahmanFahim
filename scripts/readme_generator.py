@@ -101,34 +101,42 @@ def render_currently_building(repos: list[dict], labels_by_repo: dict[str, list[
 
 def render_architecture() -> str:
     return """```mermaid
-flowchart TD
-    subgraph Client ["🌐 Client & Presentation Layer"]
-        Next["⚛️ Next.js 15 (App Router) / React 19"]
-        Native["📱 React Native (Expo 53)"]
-        UI["🎨 Tailwind CSS 4 + Radix UI + Framer Motion"]
-        Viz["📊 Recharts & Chart.js"]
+flowchart LR
+    subgraph Clients ["🌐 CLIENT PLATFORMS"]
+        Web["💻 Next.js 15 / React 19<br/><sub>Web Application</sub>"]
+        Mobile["📱 React Native / Expo 53<br/><sub>Mobile Application</sub>"]
     end
 
-    subgraph StateBridge ["⚡ State Management & API Gateway"]
-        State["🔄 Zustand Store & React Context"]
-        ClientAPI["📡 Axios & RESTful API Clients"]
+    subgraph CoreEngine ["⚙️ API & SERVICE LAYER"]
+        direction TB
+        Gate["⚡ State & API Client<br/><sub>Zustand • Axios Gateway</sub>"]
+        Nest["🔺 NestJS Core Services<br/><sub>Modular REST API • DTOs</sub>"]
+        DotNet["🔷 ASP.NET Core Engine<br/><sub>C# Business Logic</sub>"]
+        Gate ==> Nest
+        Gate ==> DotNet
     end
 
-    subgraph BackendServices ["⚙️ Backend & Microservices Layer"]
-        Nest["🔺 NestJS (Controllers, Modules, DTOs)"]
-        DotNet["🔷 ASP.NET Core / .NET Framework"]
-        AuthService["🔐 JWT, Passport.js & Bcrypt Security"]
+    subgraph SecurityLayer ["🔐 AUTH & SECURITY"]
+        Auth["JWT Token Engine<br/><sub>Passport.js • Bcrypt</sub>"]
     end
 
-    subgraph DataStorage ["🗄️ Persistence & Cloud Database Layer"]
-        Postgres["🐘 PostgreSQL (Prisma ORM & TypeORM)"]
-        SQLServer["🗄️ Microsoft SQL Server (.bacpac)"]
-        Firebase["🔥 Cloud Firestore & Realtime DB"]
+    subgraph Storage ["🗄️ DATA & CLOUD INFRASTRUCTURE"]
+        subgraph Databases ["🐘 RELATIONAL DATABASES"]
+            Postgres["PostgreSQL Database<br/><sub>Prisma ORM & TypeORM</sub>"]
+            SQLServer["Microsoft SQL Server<br/><sub>Schemas & .bacpac</sub>"]
+        end
+        subgraph CloudInfra ["☁️ CLOUD & DEPLOYMENT"]
+            Firebase["Firebase Suite<br/><sub>Firestore • Realtime DB</sub>"]
+            Deploy["CI/CD & Hosting<br/><sub>GitHub Actions • Vercel</sub>"]
+        end
     end
 
-    Client ==> StateBridge
-    StateBridge ==> BackendServices
-    BackendServices ==> DataStorage
+    Clients ==> Gate
+    SecurityLayer -.-> Nest
+    SecurityLayer -.-> DotNet
+    Nest ==> Databases
+    Nest ==> CloudInfra
+    DotNet ==> Databases
 ```
 
 <br/>
