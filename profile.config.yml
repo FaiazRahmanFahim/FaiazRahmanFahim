@@ -15,17 +15,17 @@ profile:
   timezone: "Asia/Dhaka"
 
 about:
-  summary: "Full-Stack Developer & Software Engineer with a vibe-coder mindset — pairing strong engineering fundamentals in Next.js, NestJS, and TypeScript with AI-assisted workflows and rapid prototyping to turn ambitious product ideas into high-performance, polished software."
+  summary: "Full-Stack Developer & Software Engineer with a vibe-coder mindset — primarily building modern MERN stack applications with tailored PostgreSQL, MySQL, and MongoDB databases, custom authentication/authorization systems, and AI-augmented rapid prototyping."
 
   who_i_am:
-    - "Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh, building modern web and mobile architectures."
-    - "Vibe Coder at heart: leveraging AI-augmented tooling, rapid experimentation, and intuitive product thinking to ship fast without sacrificing code quality."
-    - "Engineer who values end-to-end craftsmanship — from modular backend APIs and relational databases to fluid, accessible user interfaces."
+    - "Full-Stack Developer & Software Engineer based in Dhaka, Bangladesh, specialized in scalable web and mobile applications."
+    - "Vibe Coder at heart: combining strong MERN engineering fundamentals with AI-assisted tooling to ship rapid, high-impact features."
+    - "Full-cycle developer: crafting intuitive frontends, customized auth flows, and adaptable relational & document database tiers."
 
   current_focus:
-    - "Production-grade full-stack architectures with Next.js (App Router), React, TypeScript, and NestJS"
-    - "Robust backend API engineering, secure JWT/Passport auth flows, and PostgreSQL data modeling via Prisma & TypeORM"
-    - "Modern UI systems and micro-interactions using Tailwind CSS, Radix UI primitives, and Framer Motion"
+    - "Modern MERN full-stack development, React, Next.js (App Router), and TypeScript"
+    - "Custom authentication & authorization systems (JWT, Passport.js, Firebase Auth, RBAC)"
+    - "Tailored database architecture using PostgreSQL, MySQL, and MongoDB (Prisma & TypeORM)"
 
   interests:
     - "Full-Stack & Mobile Engineering (Next.js, NestJS, React Native / Expo, ASP.NET Core)"

@@ -16,7 +16,7 @@
 
 ## ⚡ Executive Technical Summary
 
-I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile architectures. My focus spans end-to-end software engineering — from crafting type-safe frontend interfaces with **Next.js, React, and TypeScript** to designing robust microservices and RESTful backends using **NestJS, ASP.NET Core, PostgreSQL, and Prisma ORM**.
+I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile applications. Currently working primarily with modern **MERN stack architectures**, integrating tailored database tiers using **PostgreSQL, MySQL, or MongoDB** based on client requirements, and implementing **custom authentication & authorization systems**. I combine solid software engineering principles with a **Vibe Coder** velocity — leveraging AI-assisted workflows and rapid prototyping to turn ambitious product ideas into high-performance software.
 
 ---
 
