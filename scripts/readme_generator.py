@@ -307,6 +307,18 @@ def render_featured_projects(pinned_names: list[str], repos_by_name: dict[str, d
             "desc": "Enterprise inventory and sales tracking solution built with C# and ASP.NET on the .NET Framework, backed by Microsoft SQL Server database backup tiers (.bacpac).",
             "demo": "",
             "techs": ["C#", "ASP.NET", "Microsoft SQL Server", "SQL"]
+        },
+        "Boi-Poka": {
+            "title": "📚 Boi Poka — Interactive Book Discovery",
+            "desc": "Responsive book discovery and reading list management platform with dynamic filtering, category sorting, persistent storage, and responsive book detail views.",
+            "demo": "https://boi-poka-mafrf.surge.sh/",
+            "techs": ["React", "Vite", "Tailwind CSS", "DaisyUI", "React Router", "Lucide Icons"]
+        },
+        "Customer-Support-Zone": {
+            "title": "🎧 Customer Support Ticket Portal",
+            "desc": "Real-time client assistance and ticket management interface featuring priority tracking, responsive query handling, and status analytics.",
+            "demo": "https://customer-support-zone-mafrf.surge.sh/",
+            "techs": ["React", "Vite", "Tailwind CSS", "DaisyUI", "Lucide Icons"]
         }
     }
 
