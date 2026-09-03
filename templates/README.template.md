@@ -103,7 +103,33 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,mysql,mongodb,prisma,firebase,git,github,vscode,postman,figma,vercel,netlify" alt="Verified Skills" />
+<img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" title="TypeScript" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=js" alt="JavaScript (ES6+)" title="JavaScript (ES6+)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=cs" alt="C# (.NET)" title="C# (.NET)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=cpp" alt="C++ (OpenGL)" title="C++ (OpenGL)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=react" alt="React / React Native (Expo)" title="React / React Native (Expo)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js (App Router)" title="Next.js (App Router)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vite" alt="Vite" title="Vite" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" title="NestJS" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=express" alt="Express.js" title="Express.js" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=dotnet" alt="ASP.NET Core" title="ASP.NET Core" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="MongoDB" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=prisma" alt="Prisma ORM" title="Prisma ORM" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=firebase" alt="Firebase (Auth & Firestore)" title="Firebase (Auth & Firestore)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" title="VS Code" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=postman" alt="Postman" title="Postman" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=figma" alt="Figma" title="Figma" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" title="Vercel" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=netlify" alt="Netlify" title="Netlify" width="46" height="46"/>
 
 </div>
 

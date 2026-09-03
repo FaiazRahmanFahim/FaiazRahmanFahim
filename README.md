@@ -60,7 +60,16 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" />
       </p>
     </td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top">
+      <h3 align="center">📦 Advance Web Tech</h3>
+      <p align="center">
+        <a href="https://github.com/FaiazRahmanFahim/Advance-Web-Tech"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
+      </p>
+      <p>Full-stack software application built with modern engineering practices.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" height="24" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" height="24" />
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -71,7 +80,7 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
   <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
@@ -148,7 +157,33 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,mysql,mongodb,prisma,firebase,git,github,vscode,postman,figma,vercel,netlify" alt="Verified Skills" />
+<img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" title="TypeScript" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=js" alt="JavaScript (ES6+)" title="JavaScript (ES6+)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=cs" alt="C# (.NET)" title="C# (.NET)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=cpp" alt="C++ (OpenGL)" title="C++ (OpenGL)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=react" alt="React / React Native (Expo)" title="React / React Native (Expo)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js (App Router)" title="Next.js (App Router)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vite" alt="Vite" title="Vite" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" title="NestJS" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=express" alt="Express.js" title="Express.js" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=dotnet" alt="ASP.NET Core" title="ASP.NET Core" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="MongoDB" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=prisma" alt="Prisma ORM" title="Prisma ORM" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=firebase" alt="Firebase (Auth & Firestore)" title="Firebase (Auth & Firestore)" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" title="VS Code" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=postman" alt="Postman" title="Postman" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=figma" alt="Figma" title="Figma" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" title="Vercel" width="46" height="46"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=netlify" alt="Netlify" title="Netlify" width="46" height="46"/>
 
 </div>
 
@@ -158,7 +193,7 @@ flowchart LR
 ### 📊 GitHub Analytics & Insights
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">
