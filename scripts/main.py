@@ -115,10 +115,7 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
 
     blocks = []
 
-    # 1. Currently building (Active work only)
-    blocks.append("### 🔥 Currently Building\n\n" + rg.render_currently_building(repos, classifications))
-
-    # 2. Analytics cards & badges (No markdown table)
+    # 1. Analytics cards & badges (No markdown table)
     analytics_content = [
         '<div align="center">',
         '  ' + rg.render_analytics_badges(stats),
@@ -208,6 +205,7 @@ def main():
         for r in repos
     }
     featured_projects_html = rg.render_featured_projects(pinned_names, repos_by_name, tech_by_repo)
+    currently_building_html = "### 🔥 Currently Building\n\n" + rg.render_currently_building(repos, classifications)
 
     rendered = (
         template.replace("{{NAME}}", profile.get("name", ""))
@@ -218,6 +216,7 @@ def main():
         .replace("{{AI_INTRO}}", build_ai_intro(config, top_langs_for_intro, top_repo_name, about.get("current_focus", [])))
         .replace("{{ABOUT_ME}}", build_about_me(config))
         .replace("{{FEATURED_PROJECTS}}", featured_projects_html)
+        .replace("{{CURRENTLY_BUILDING}}", currently_building_html)
         .replace("{{AUTO_BLOCK}}", auto_block)
         .replace("{{PHILOSOPHY}}", rg.render_config_list(about.get("philosophy"), "Build • Break • Debug • Repeat"))
         .replace("{{SOCIAL_LINKS}}", rg.render_social_links(config.get("social", {})))

@@ -18,18 +18,6 @@
 
 I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile architectures. My focus spans end-to-end software engineering — from crafting type-safe frontend interfaces with **Next.js, React, and TypeScript** to designing robust microservices and RESTful backends using **NestJS, ASP.NET Core, PostgreSQL, and Prisma ORM**.
 
-```
-  ┌─────────────────────────────────────────────────────────────────────────────┐
-  │  Core Specializations                                                       │
-  ├─────────────────────────────────────────────────────────────────────────────┤
-  │  • Modern Frontend & Mobile : Next.js (App Router), React, React Native     │
-  │  • Scalable Backend & APIs  : NestJS (Modular Architecture), Node.js, C#   │
-  │  • Databases & ORMs         : PostgreSQL, MySQL, MongoDB, SQL Server, Prisma│
-  │  • Security & Auth Systems  : JWT, Passport.js, Firebase Authentication     │
-  │  • UI/UX & Data Visuals     : Tailwind CSS, Radix UI, Framer Motion         │
-  └─────────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## 🏆 Featured Projects
@@ -85,6 +73,17 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
     </td>
   </tr>
 </table>
+
+<br/>
+
+### 🔥 Currently Building
+
+**Active & Ongoing Projects**
+
+- **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
+- **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
+  <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
 ---
 
@@ -201,21 +200,10 @@ flowchart LR
 ---
 
 <!-- AUTO-GENERATED:START -->
-### 🔥 Currently Building
-
-**Active & Ongoing Projects**
-
-- **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
-- **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
-
----
-
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">

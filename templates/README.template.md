@@ -18,18 +18,6 @@
 
 I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile architectures. My focus spans end-to-end software engineering — from crafting type-safe frontend interfaces with **Next.js, React, and TypeScript** to designing robust microservices and RESTful backends using **NestJS, ASP.NET Core, PostgreSQL, and Prisma ORM**.
 
-```
-  ┌─────────────────────────────────────────────────────────────────────────────┐
-  │  Core Specializations                                                       │
-  ├─────────────────────────────────────────────────────────────────────────────┤
-  │  • Modern Frontend & Mobile : Next.js (App Router), React, React Native     │
-  │  • Scalable Backend & APIs  : NestJS (Modular Architecture), Node.js, C#   │
-  │  • Databases & ORMs         : PostgreSQL, MySQL, MongoDB, SQL Server, Prisma│
-  │  • Security & Auth Systems  : JWT, Passport.js, Firebase Authentication     │
-  │  • UI/UX & Data Visuals     : Tailwind CSS, Radix UI, Framer Motion         │
-  └─────────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## 🏆 Featured Projects
@@ -37,6 +25,10 @@ I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, 
 A dynamic showcase of projects pinned directly on my GitHub profile:
 
 {{FEATURED_PROJECTS}}
+
+<br/>
+
+{{CURRENTLY_BUILDING}}
 
 ---
 
