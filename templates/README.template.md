@@ -156,20 +156,20 @@ flowchart LR
     end
 
     subgraph Security ["🔐 AUTH & SECURITY"]
-        Auth["JWT Token Engine<br/>Passport.js • Bcrypt"]
+        Auth["Auth & Security Layer<br/>JWT • Firebase • Passport"]
     end
 
-    subgraph CoreEngine ["⚙️ API & SERVICE LAYER"]
-        Gate["⚡ State & API Client<br/>Zustand • Axios"]
+    subgraph CoreEngine ["⚙️ API & BACKEND SERVICES"]
+        Gate["⚡ State & API Layer<br/>React Router • REST APIs"]
         Nest["🔺 NestJS Services<br/>Modular REST APIs"]
         DotNet["🔷 ASP.NET Core<br/>C# Backend Engine"]
     end
 
-    subgraph Storage ["🗄️ DATA & CLOUD INFRASTRUCTURE"]
-        Postgres["🐘 PostgreSQL<br/>Prisma & TypeORM"]
-        SQLServer["🗄️ SQL Server<br/>Relational Schemas"]
-        Firebase["🔥 Firebase Suite<br/>Firestore & Realtime DB"]
-        Cloud["☁️ Deployments<br/>Vercel & CI/CD"]
+    subgraph Storage ["🗄️ DATABASES & CLOUD HOSTING"]
+        Postgres["🐘 PostgreSQL & MySQL<br/>Prisma & TypeORM"]
+        Mongo["🍃 MongoDB & Firestore<br/>Document Databases"]
+        SQLServer["🗄️ MS SQL Server<br/>Relational Schemas"]
+        Cloud["☁️ Cloud Deployments<br/>Vercel • Netlify • Surge • Firebase"]
     end
 
     %% Connections
@@ -180,9 +180,10 @@ flowchart LR
     Auth -.-> Nest
     Auth -.-> DotNet
     Nest ==> Postgres
-    Nest ==> Firebase
+    Nest ==> Mongo
     DotNet ==> SQLServer
     Nest --> Cloud
+    Web --> Cloud
 
     %% Colors & Styling
     classDef clientStyle fill:#161b22,stroke:#58A6FF,stroke-width:2px,color:#f0f6fc;
@@ -195,19 +196,19 @@ flowchart LR
     class Gate gateStyle;
     class Nest,DotNet backendStyle;
     class Auth authStyle;
-    class Postgres,SQLServer,Firebase,Cloud dbStyle;
+    class Postgres,Mongo,SQLServer,Cloud dbStyle;
 ```
 
 <br/>
 
 | Architectural Layer | Core Technologies | Engineering Focus |
 | :--- | :--- | :--- |
-| **🌐 Frontend & Mobile** | `Next.js 15`, `React 19`, `React Native (Expo)`, `Vite` | App Router SSR/SSG, cross-platform UI, fast HMR, component isolation |
+| **🌐 Frontend & Mobile** | `Next.js`, `React`, `React Native (Expo)`, `Vite` | App Router SSR/SSG, cross-platform UI, fast HMR, component isolation |
 | **🎨 UI Design & Visuals** | `Tailwind CSS 4`, `DaisyUI 5`, `Radix UI`, `Framer Motion` | Fluid animations, accessible headless primitives, responsive design systems |
-| **⚙️ Backend & API Design** | `NestJS 11/10`, `Node.js`, `Express`, `ASP.NET` | Modular architecture, REST APIs, DTO validation (`class-validator`), RxJS |
+| **⚙️ Backend & API Design** | `NestJS`, `Node.js`, `Express`, `ASP.NET Core` | Modular architecture, REST APIs, DTO validation (`class-validator`), RxJS |
 | **🔐 Auth & Security** | `JWT`, `Passport.js`, `Firebase Auth`, `Bcrypt` | Token lifecycle, route guards, secure password hashing, cookie management |
-| **🗄️ Databases & ORMs** | `PostgreSQL`, `Prisma ORM`, `TypeORM`, `SQL Server` | Relational modeling, schema migrations, performant query generation |
-| **🛠️ Tooling & CI/CD** | `Git`, `GitHub Actions`, `ESLint`, `Jest`, `Surge.sh` | Automated workflows, static analysis, unit/e2e tests, continuous deployment |
+| **🗄️ Databases & ORMs** | `PostgreSQL`, `MySQL`, `MongoDB`, `SQL Server`, `Prisma`, `TypeORM` | Relational & document modeling, schema migrations, query optimization |
+| **☁️ Hosting & Cloud** | `Vercel`, `Netlify`, `Surge.sh`, `Firebase Hosting`, `GitHub Actions` | Automated deployments, cloud hosting, CI/CD workflows |
 
 ---
 
@@ -223,34 +224,35 @@ flowchart LR
 
 **💻 Programming Languages**
 ```
-• TypeScript (v5)    • JavaScript (ES6+)    • C# (.NET)    • Python    • C++ (OpenGL)    • HTML5    • CSS3    • SQL / T-SQL
+• TypeScript         • JavaScript (ES6+)    • C# (.NET)        • Python
+• C++ (OpenGL)       • HTML5                • CSS3             • SQL / T-SQL
 ```
 
 **🌐 Frontend & Mobile Technologies**
 ```
-• Next.js 15 (App Router, Turbopack)    • React 19 / 18    • React Native (Expo 53)    • Vite
-• Tailwind CSS 4 / 3                    • DaisyUI 5        • Radix UI Primitives       • Flowbite React
-• Framer Motion                         • Swiper           • Zustand                   • React Router 7
-• Recharts / Chart.js                   • Sonner / Toastify• Lucide Icons / React Icons • React Hook Form
+• Next.js (App Router) • React              • React Native (Expo) • Vite
+• Tailwind CSS 4 / 3   • DaisyUI 5          • Radix UI Primitives • Flowbite React
+• Framer Motion        • Swiper             • React Router 7      • React Tabs
+• Recharts / Chart.js  • Sonner / Toastify  • Lucide Icons        • React Icons
 ```
 
-**⚙️ Backend & Cloud Services**
+**⚙️ Backend & API Engineering**
 ```
-• NestJS 11 / 10                        • Node.js          • Express                   • ASP.NET / .NET Framework
-• RESTful APIs                          • Axios            • RxJS                      • Nodemailer / Multer
-• Firebase (Auth, Firestore, Hosting)
+• NestJS (Modular API) • Node.js            • Express             • ASP.NET Core (.NET)
+• RESTful APIs         • RxJS               • Nodemailer          • Multer File Uploads
 ```
 
 **🔐 Authentication, Databases & ORMs**
 ```
-• JWT (JSON Web Tokens)                 • Passport.js      • Bcrypt / BcryptJS         • Cookie-Parser
-• PostgreSQL (pg driver)                • Prisma ORM (v6)  • TypeORM                   • Microsoft SQL Server
+• JWT (JSON Web Tokens)• Passport.js        • Firebase Auth       • Bcrypt Hashing
+• PostgreSQL           • MySQL              • MongoDB             • Microsoft SQL Server
+• Prisma ORM           • TypeORM
 ```
 
-**🛠️ Developer Tools & DevOps**
+**☁️ Cloud Hosting & DevOps Tools**
 ```
-• Git & GitHub Actions (CI/CD)          • VS Code          • Visual Studio             • Figma
-• Postman                               • Jest / Supertest • ESLint & Prettier         • Surge.sh / Netlify
+• Vercel               • Netlify            • Surge.sh            • Firebase Hosting
+• Git & GitHub Actions • VS Code            • Postman             • Figma
 ```
 
 ---

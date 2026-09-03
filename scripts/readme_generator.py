@@ -109,20 +109,20 @@ flowchart LR
     end
 
     subgraph Security ["🔐 AUTH & SECURITY"]
-        Auth["JWT Token Engine<br/>Passport.js • Bcrypt"]
+        Auth["Auth & Security Layer<br/>JWT • Firebase • Passport"]
     end
 
-    subgraph CoreEngine ["⚙️ API & SERVICE LAYER"]
-        Gate["⚡ State & API Client<br/>Zustand • Axios"]
+    subgraph CoreEngine ["⚙️ API & BACKEND SERVICES"]
+        Gate["⚡ State & API Layer<br/>React Router • REST APIs"]
         Nest["🔺 NestJS Services<br/>Modular REST APIs"]
         DotNet["🔷 ASP.NET Core<br/>C# Backend Engine"]
     end
 
-    subgraph Storage ["🗄️ DATA & CLOUD INFRASTRUCTURE"]
-        Postgres["🐘 PostgreSQL<br/>Prisma & TypeORM"]
-        SQLServer["🗄️ SQL Server<br/>Relational Schemas"]
-        Firebase["🔥 Firebase Suite<br/>Firestore & Realtime DB"]
-        Cloud["☁️ Deployments<br/>Vercel & CI/CD"]
+    subgraph Storage ["🗄️ DATABASES & CLOUD HOSTING"]
+        Postgres["🐘 PostgreSQL & MySQL<br/>Prisma & TypeORM"]
+        Mongo["🍃 MongoDB & Firestore<br/>Document Databases"]
+        SQLServer["🗄️ MS SQL Server<br/>Relational Schemas"]
+        Cloud["☁️ Cloud Deployments<br/>Vercel • Netlify • Surge • Firebase"]
     end
 
     %% Connections
@@ -133,9 +133,10 @@ flowchart LR
     Auth -.-> Nest
     Auth -.-> DotNet
     Nest ==> Postgres
-    Nest ==> Firebase
+    Nest ==> Mongo
     DotNet ==> SQLServer
     Nest --> Cloud
+    Web --> Cloud
 
     %% Colors & Styling
     classDef clientStyle fill:#161b22,stroke:#58A6FF,stroke-width:2px,color:#f0f6fc;
@@ -148,7 +149,7 @@ flowchart LR
     class Gate gateStyle;
     class Nest,DotNet backendStyle;
     class Auth authStyle;
-    class Postgres,SQLServer,Firebase,Cloud dbStyle;
+    class Postgres,Mongo,SQLServer,Cloud dbStyle;
 ```
 
 <br/>
