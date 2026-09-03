@@ -149,41 +149,53 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
 
 ```mermaid
 flowchart LR
+    %% Subgraphs
     subgraph Clients ["🌐 CLIENT PLATFORMS"]
-        Web["💻 Next.js 15 / React 19<br/><sub>Web Application</sub>"]
-        Mobile["📱 React Native / Expo 53<br/><sub>Mobile Application</sub>"]
+        Web["💻 Next.js & React<br/>Web Application"]
+        Mobile["📱 React Native & Expo<br/>Mobile Application"]
+    end
+
+    subgraph Security ["🔐 AUTH & SECURITY"]
+        Auth["JWT Token Engine<br/>Passport.js • Bcrypt"]
     end
 
     subgraph CoreEngine ["⚙️ API & SERVICE LAYER"]
-        direction TB
-        Gate["⚡ State & API Client<br/><sub>Zustand • Axios Gateway</sub>"]
-        Nest["🔺 NestJS Core Services<br/><sub>Modular REST API • DTOs</sub>"]
-        DotNet["🔷 ASP.NET Core Engine<br/><sub>C# Business Logic</sub>"]
-        Gate ==> Nest
-        Gate ==> DotNet
-    end
-
-    subgraph SecurityLayer ["🔐 AUTH & SECURITY"]
-        Auth["JWT Token Engine<br/><sub>Passport.js • Bcrypt</sub>"]
+        Gate["⚡ State & API Client<br/>Zustand • Axios"]
+        Nest["🔺 NestJS Services<br/>Modular REST APIs"]
+        DotNet["🔷 ASP.NET Core<br/>C# Backend Engine"]
     end
 
     subgraph Storage ["🗄️ DATA & CLOUD INFRASTRUCTURE"]
-        subgraph Databases ["🐘 RELATIONAL DATABASES"]
-            Postgres["PostgreSQL Database<br/><sub>Prisma ORM & TypeORM</sub>"]
-            SQLServer["Microsoft SQL Server<br/><sub>Schemas & .bacpac</sub>"]
-        end
-        subgraph CloudInfra ["☁️ CLOUD & DEPLOYMENT"]
-            Firebase["Firebase Suite<br/><sub>Firestore • Realtime DB</sub>"]
-            Deploy["CI/CD & Hosting<br/><sub>GitHub Actions • Vercel</sub>"]
-        end
+        Postgres["🐘 PostgreSQL<br/>Prisma & TypeORM"]
+        SQLServer["🗄️ SQL Server<br/>Relational Schemas"]
+        Firebase["🔥 Firebase Suite<br/>Firestore & Realtime DB"]
+        Cloud["☁️ Deployments<br/>Vercel & CI/CD"]
     end
 
-    Clients ==> Gate
-    SecurityLayer -.-> Nest
-    SecurityLayer -.-> DotNet
-    Nest ==> Databases
-    Nest ==> CloudInfra
-    DotNet ==> Databases
+    %% Connections
+    Web --> Gate
+    Mobile --> Gate
+    Gate ==> Nest
+    Gate ==> DotNet
+    Auth -.-> Nest
+    Auth -.-> DotNet
+    Nest ==> Postgres
+    Nest ==> Firebase
+    DotNet ==> SQLServer
+    Nest --> Cloud
+
+    %% Colors & Styling
+    classDef clientStyle fill:#161b22,stroke:#58A6FF,stroke-width:2px,color:#f0f6fc;
+    classDef gateStyle fill:#161b22,stroke:#39D0D8,stroke-width:2px,color:#f0f6fc;
+    classDef backendStyle fill:#161b22,stroke:#BC8CFF,stroke-width:2px,color:#f0f6fc;
+    classDef authStyle fill:#161b22,stroke:#F778BA,stroke-width:2px,color:#f0f6fc;
+    classDef dbStyle fill:#161b22,stroke:#7EE787,stroke-width:2px,color:#f0f6fc;
+
+    class Web,Mobile clientStyle;
+    class Gate gateStyle;
+    class Nest,DotNet backendStyle;
+    class Auth authStyle;
+    class Postgres,SQLServer,Firebase,Cloud dbStyle;
 ```
 
 <br/>
