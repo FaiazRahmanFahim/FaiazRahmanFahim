@@ -125,28 +125,24 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
         '</div>',
         '<br/>',
         '<div align="center">',
-        f'  <img src="https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />',
-        f'  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />',
+        f'  <img src="https://github-readme-stats-fast.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />',
+        f'  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />',
         '</div>',
         '<br/>',
         '<div align="center">',
-        f'  <img src="https://github-readme-streak-stats.herokuapp.com/?user={username}&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF" alt="GitHub Streak" />',
+        f'  <img src="https://streak-stats.demolab.com/?user={username}&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF&sideNums=c9d1d9&sideLabels=8b949e&currStreakNum=58A6FF&dates=8b949e" alt="GitHub Streak" />',
         '</div>'
     ]
     blocks.append("### 📊 GitHub Analytics\n\n" + "\n".join(analytics_content))
 
-    # 6. Language breakdown (Redesigned modern SVG)
+    # 3. Language breakdown (Redesigned modern SVG)
     blocks.append(
         "### 📈 Repository Language Breakdown\n\n"
         f'<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>'
     )
 
-    # 7. Contribution Activity
+    # 4. Contribution Activity
     contribution_content = [
-        '<div align="center">',
-        f'  <img src="https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=tokyo-night&hide_border=true&area=true&color=58A6FF" alt="GitHub Activity Graph" width="100%" />',
-        '</div>',
-        "",
         '<div align="center">',
         '  <picture>',
         f'    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg">',

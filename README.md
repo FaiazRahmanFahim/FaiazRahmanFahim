@@ -241,7 +241,7 @@ flowchart LR
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
   <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
@@ -254,12 +254,12 @@ flowchart LR
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FaiazRahmanFahim&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=FaiazRahmanFahim&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF&sideNums=c9d1d9&sideLabels=8b949e&currStreakNum=58A6FF&dates=8b949e" alt="GitHub Streak" />
 </div>
 
 ---
@@ -271,10 +271,6 @@ flowchart LR
 ---
 
 ### 🟩 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FaiazRahmanFahim&theme=tokyo-night&hide_border=true&area=true&color=58A6FF" alt="GitHub Activity Graph" width="100%" />
-</div>
 
 <div align="center">
   <picture>
