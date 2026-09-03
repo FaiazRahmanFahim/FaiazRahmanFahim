@@ -148,34 +148,34 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
 ## 🏗️ System Architecture & Full-Stack Capabilities
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Client ["🌐 Client & Presentation Layer"]
-        Next["⚛️ Next.js 15 / React 19"]
+        Next["⚛️ Next.js 15 (App Router) / React 19"]
         Native["📱 React Native (Expo 53)"]
-        UI["🎨 Tailwind CSS 4 + Radix UI"]
+        UI["🎨 Tailwind CSS 4 + Radix UI + Framer Motion"]
         Viz["📊 Recharts & Chart.js"]
     end
 
-    subgraph StateBridge ["⚡ State & API Gateway"]
-        State["🔄 Zustand & Context"]
-        ClientAPI["📡 Axios & REST Endpoints"]
+    subgraph StateBridge ["⚡ State Management & API Gateway"]
+        State["🔄 Zustand Store & React Context"]
+        ClientAPI["📡 Axios & RESTful API Clients"]
     end
 
-    subgraph BackendServices ["⚙️ Service Layer & Microservices"]
+    subgraph BackendServices ["⚙️ Backend & Microservices Layer"]
         Nest["🔺 NestJS (Controllers, Modules, DTOs)"]
-        DotNet["🔷 ASP.NET Core / .NET"]
-        AuthService["🔐 JWT & Passport.js"]
+        DotNet["🔷 ASP.NET Core / .NET Framework"]
+        AuthService["🔐 JWT, Passport.js & Bcrypt Security"]
     end
 
-    subgraph DataStorage ["🗄️ Persistence & Cloud Data"]
-        Postgres["🐘 PostgreSQL (Prisma & TypeORM)"]
-        SQLServer["🗄️ Microsoft SQL Server"]
+    subgraph DataStorage ["🗄️ Persistence & Cloud Database Layer"]
+        Postgres["🐘 PostgreSQL (Prisma ORM & TypeORM)"]
+        SQLServer["🗄️ Microsoft SQL Server (.bacpac)"]
         Firebase["🔥 Cloud Firestore & Realtime DB"]
     end
 
-    Client --> StateBridge
-    StateBridge --> BackendServices
-    BackendServices --> DataStorage
+    Client ==> StateBridge
+    StateBridge ==> BackendServices
+    BackendServices ==> DataStorage
 ```
 
 <br/>

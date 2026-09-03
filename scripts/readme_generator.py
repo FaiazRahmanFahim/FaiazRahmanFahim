@@ -101,40 +101,34 @@ def render_currently_building(repos: list[dict], labels_by_repo: dict[str, list[
 
 def render_architecture() -> str:
     return """```mermaid
-flowchart LR
-    subgraph Client ["🌐 Frontend Layer"]
-        React["⚛️ React 18 + Vite"]
-        UI["🎨 Tailwind CSS + DaisyUI"]
-        Router["🧭 React Router"]
-        Viz["📊 Recharts & Lucide"]
+flowchart TD
+    subgraph Client ["🌐 Client & Presentation Layer"]
+        Next["⚛️ Next.js 15 (App Router) / React 19"]
+        Native["📱 React Native (Expo 53)"]
+        UI["🎨 Tailwind CSS 4 + Radix UI + Framer Motion"]
+        Viz["📊 Recharts & Chart.js"]
     end
 
-    subgraph StateLogic ["⚡ State & Networking"]
-        Hooks["🔄 Custom Hooks & Context"]
-        API["📡 Axios & REST APIs"]
+    subgraph StateBridge ["⚡ State Management & API Gateway"]
+        State["🔄 Zustand Store & React Context"]
+        ClientAPI["📡 Axios & RESTful API Clients"]
     end
 
-    subgraph BackendData ["⚙️ Backend & Services"]
-        DotNet["🔷 ASP.NET Core / Node.js"]
-        Auth["🔐 Firebase Auth"]
-        DB["🗄️ Realtime DB & Firestore"]
+    subgraph BackendServices ["⚙️ Backend & Microservices Layer"]
+        Nest["🔺 NestJS (Controllers, Modules, DTOs)"]
+        DotNet["🔷 ASP.NET Core / .NET Framework"]
+        AuthService["🔐 JWT, Passport.js & Bcrypt Security"]
     end
 
-    subgraph DevOpsDeploy ["🚀 Delivery & Hosting"]
-        Git["🐙 Git & GitHub"]
-        Hosting["☁️ Surge.sh / Firebase Hosting"]
+    subgraph DataStorage ["🗄️ Persistence & Cloud Database Layer"]
+        Postgres["🐘 PostgreSQL (Prisma ORM & TypeORM)"]
+        SQLServer["🗄️ Microsoft SQL Server (.bacpac)"]
+        Firebase["🔥 Cloud Firestore & Realtime DB"]
     end
 
-    React --> UI
-    React --> Router
-    React --> Viz
-    React --> Hooks
-    Hooks --> API
-    API --> DotNet
-    API --> Auth
-    DotNet --> DB
-    Client -.-> Hosting
-    DevOpsDeploy -.-> Hosting
+    Client ==> StateBridge
+    StateBridge ==> BackendServices
+    BackendServices ==> DataStorage
 ```
 
 <br/>
