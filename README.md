@@ -3,7 +3,7 @@
 # Md Al Faiaz Rahman Fahim
 
 <a href="https://github.com/FaiazRahmanFahim">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Full-Stack+Developer+%26+Software+Engineer;Next.js+15+%E2%80%A2+React+19+%E2%80%A2+NestJS+%E2%80%A2+TypeScript;Architecting+Scalable+Web+%26+Mobile+Systems;BUILD+%E2%80%A2+BREAK+%E2%80%A2+DEBUG+%E2%80%A2+REPEAT" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Full-Stack+Developer+%26+Software+Engineer;Next.js+%E2%80%A2+React+%E2%80%A2+NestJS+%E2%80%A2+TypeScript;Architecting+Scalable+Web+%26+Mobile+Systems;BUILD+%E2%80%A2+BREAK+%E2%80%A2+DEBUG+%E2%80%A2+REPEAT" alt="Typing Banner" />
 </a>
 
 <br/>
@@ -16,17 +16,17 @@
 
 ## ⚡ Executive Technical Summary
 
-I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile architectures. My focus spans end-to-end software engineering — from crafting type-safe frontend interfaces with **Next.js 15, React 19, and TypeScript** to designing robust microservices and RESTful backends using **NestJS, ASP.NET Core, PostgreSQL, and Prisma ORM**.
+I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, specialized in building scalable, production-ready web and mobile architectures. My focus spans end-to-end software engineering — from crafting type-safe frontend interfaces with **Next.js, React, and TypeScript** to designing robust microservices and RESTful backends using **NestJS, ASP.NET Core, PostgreSQL, and Prisma ORM**.
 
 ```
   ┌─────────────────────────────────────────────────────────────────────────────┐
   │  Core Specializations                                                       │
   ├─────────────────────────────────────────────────────────────────────────────┤
-  │  • Modern Frontend & Mobile : Next.js 15 (App Router), React 19, Expo 53   │
+  │  • Modern Frontend & Mobile : Next.js (App Router), React, React Native     │
   │  • Scalable Backend & APIs  : NestJS (Modular Architecture), Node.js, C#   │
-  │  • Databases & ORMs         : PostgreSQL, Prisma, TypeORM, SQL Server      │
+  │  • Databases & ORMs         : PostgreSQL, MySQL, MongoDB, SQL Server, Prisma│
   │  • Security & Auth Systems  : JWT, Passport.js, Firebase Authentication     │
-  │  • UI/UX & Data Visuals     : Tailwind CSS 4, Radix UI, Framer Motion      │
+  │  • UI/UX & Data Visuals     : Tailwind CSS, Radix UI, Framer Motion         │
   └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -46,15 +46,14 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       </p>
       <p>Full-stack enterprise hotel management and booking system with multi-criteria room filtering, reservation lifecycles, role-based access, and administrative analytics.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/NestJS_10-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
         <img src="https://img.shields.io/badge/JWT_Auth-black?style=flat-square&logo=jsonwebtokens&logoColor=white" />
         <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" />
-        <img src="https://img.shields.io/badge/Zustand-443e38?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -62,11 +61,11 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       <p align="center">
         <a href="https://github.com/FaiazRahmanFahim/TG-Project"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
       </p>
-      <p>Cross-platform mobile application and backend service featuring native bottom-tab navigation, modular NestJS 11 REST API architecture, and token lifecycle management.</p>
+      <p>Cross-platform mobile application and backend service featuring native bottom-tab navigation, modular NestJS REST API architecture, and token lifecycle management.</p>
       <p>
         <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Expo_53-000020?style=flat-square&logo=expo&logoColor=white" />
-        <img src="https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white" />
@@ -83,12 +82,12 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       </p>
       <p>Interactive entertainment and media discovery web application featuring fluid fluid Framer Motion route animations, responsive touch-swipe carousels, and modern dark aesthetics.</p>
       <p>
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
         <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-        <img src="https://img.shields.io/badge/Swiper_14-6332F6?style=flat-square&logo=swiper&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" />
+        <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -99,12 +98,12 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       </p>
       <p>Deployed plant enthusiast platform with user authentication, protected routes, curated decor showcases, and real-time cloud data synchronization.</p>
       <p>
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
         <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
         <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
         <img src="https://img.shields.io/badge/Firebase_Hosting-039BE5?style=flat-square&logo=firebase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
         <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" />
       </p>
     </td>
@@ -118,12 +117,12 @@ A curated selection of full-stack, mobile, and interactive systems extracted dir
       </p>
       <p>Comprehensive app store showcase portal featuring installation tracking, dynamic metric counters, interactive data analytics charts, and responsive navigation.</p>
       <p>
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/DaisyUI_5-5AD7CD?style=flat-square&logo=daisyui&logoColor=black" />
-        <img src="https://img.shields.io/badge/Recharts_3-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/DaisyUI-5AD7CD?style=flat-square&logo=daisyui&logoColor=black" />
+        <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">

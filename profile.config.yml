@@ -23,9 +23,9 @@ about:
     - "Engineer who values end-to-end craftsmanship — from modular backend APIs and relational databases to fluid, accessible user interfaces."
 
   current_focus:
-    - "Production-grade full-stack architectures with Next.js 15 (App Router), React 19, TypeScript, and NestJS"
+    - "Production-grade full-stack architectures with Next.js (App Router), React, TypeScript, and NestJS"
     - "Robust backend API engineering, secure JWT/Passport auth flows, and PostgreSQL data modeling via Prisma & TypeORM"
-    - "Modern UI systems and micro-interactions using Tailwind CSS 4, Radix UI primitives, and Framer Motion"
+    - "Modern UI systems and micro-interactions using Tailwind CSS, Radix UI primitives, and Framer Motion"
 
   interests:
     - "Full-Stack & Mobile Engineering (Next.js, NestJS, React Native / Expo, ASP.NET Core)"
