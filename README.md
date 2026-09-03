@@ -200,15 +200,15 @@ flowchart LR
 ---
 
 <!-- AUTO-GENERATED:START -->
-### 📊 GitHub Analytics
+### 📊 GitHub Analytics & Insights
 
 <div align="center">
   <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=FaiazRahmanFahim&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FaiazRahmanFahim&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages" height="180" />
 </div>
 <br/>
 <div align="center">
@@ -217,13 +217,7 @@ flowchart LR
 
 ---
 
-### 📈 Repository Language Breakdown
-
-<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>
-
----
-
-### 🟩 Contribution Activity
+### 🟩 Contribution Graph
 
 <div align="center">
   <picture>

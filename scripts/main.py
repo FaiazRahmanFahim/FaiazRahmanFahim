@@ -111,34 +111,26 @@ def build_about_me(config: dict) -> str:
 
 
 def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> str:
-    categories = tech_agg["categories"]
-
     blocks = []
 
-    # 1. Analytics cards & badges (No markdown table)
+    # 1. GitHub Analytics & Metric Cards
     analytics_content = [
         '<div align="center">',
         '  ' + rg.render_analytics_badges(stats),
         '</div>',
         '<br/>',
         '<div align="center">',
-        f'  <img src="https://github-readme-stats-fast.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" height="175" />',
-        f'  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="175" />',
+        f'  <img src="https://github-readme-stats-fast.vercel.app/api?username={username}&show_icons=true&theme=tokyo-night&hide_border=true&title_color=58A6FF&icon_color=39D0D8&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" height="180" />',
+        f'  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyo-night&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages" height="180" />',
         '</div>',
         '<br/>',
         '<div align="center">',
         f'  <img src="https://streak-stats.demolab.com/?user={username}&theme=tokyo-night&hide_border=true&background=0d1117&ring=58A6FF&fire=39D0D8&currStreakLabel=58A6FF&sideNums=c9d1d9&sideLabels=8b949e&currStreakNum=58A6FF&dates=8b949e" alt="GitHub Streak" />',
         '</div>'
     ]
-    blocks.append("### 📊 GitHub Analytics\n\n" + "\n".join(analytics_content))
+    blocks.append("### 📊 GitHub Analytics & Insights\n\n" + "\n".join(analytics_content))
 
-    # 3. Language breakdown (Redesigned modern SVG)
-    blocks.append(
-        "### 📈 Repository Language Breakdown\n\n"
-        f'<img src="./generated/language-distribution.svg" alt="Language distribution chart" width="100%"/>'
-    )
-
-    # 4. Contribution Activity
+    # 2. Contribution Activity (Contribution Snake)
     contribution_content = [
         '<div align="center">',
         '  <picture>',
@@ -148,7 +140,7 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
         '  </picture>',
         '</div>'
     ]
-    blocks.append("### 🟩 Contribution Activity\n\n" + "\n".join(contribution_content))
+    blocks.append("### 🟩 Contribution Graph\n\n" + "\n".join(contribution_content))
 
     return "\n\n---\n\n".join(blocks)
 
