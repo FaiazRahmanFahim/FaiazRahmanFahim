@@ -103,44 +103,9 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,prisma,firebase,git,github,vscode,figma,postman" alt="Verified Skills" />
+<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,mysql,mongodb,prisma,firebase,git,github,vscode,postman,figma,vercel,netlify" alt="Verified Skills" />
 
 </div>
-
-<br/>
-
-**💻 Programming Languages**
-```
-• TypeScript         • JavaScript (ES6+)    • C# (.NET)        • Python
-• C++ (OpenGL)       • HTML5                • CSS3             • SQL / T-SQL
-```
-
-**🌐 Frontend & Mobile Technologies**
-```
-• Next.js (App Router) • React              • React Native (Expo) • Vite
-• Tailwind CSS         • DaisyUI            • Radix UI Primitives • Flowbite React
-• Framer Motion        • Swiper             • React Router        • React Tabs
-• Recharts / Chart.js  • Sonner / Toastify  • Lucide Icons        • React Icons
-```
-
-**⚙️ Backend & API Engineering**
-```
-• NestJS (Modular API) • Node.js            • Express             • ASP.NET Core (.NET)
-• RESTful APIs         • RxJS               • Nodemailer          • Multer File Uploads
-```
-
-**🔐 Authentication, Databases & ORMs**
-```
-• JWT (JSON Web Tokens)• Passport.js        • Firebase Auth       • Bcrypt Hashing
-• PostgreSQL           • MySQL              • MongoDB             • Microsoft SQL Server
-• Prisma ORM           • TypeORM
-```
-
-**☁️ Cloud Hosting & DevOps Tools**
-```
-• Vercel               • Netlify            • Surge.sh            • Firebase Hosting
-• Git & GitHub Actions • VS Code            • Postman             • Figma
-```
 
 ---
 

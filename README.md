@@ -60,17 +60,7 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📚 Boi Poka — Interactive Book Discovery</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Boi-Poka"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-        <a href="https://boi-poka-mafrf.surge.sh/"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-      </p>
-      <p>Responsive book discovery and reading list management platform with dynamic filtering, category sorting, persistent storage, and responsive book detail views.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/DaisyUI-5AD7CD?style=flat-square&logo=daisyui&logoColor=black" alt="DaisyUI" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" /> <img src="https://img.shields.io/badge/Lucide-F56565?style=flat-square&logo=feather&logoColor=white" alt="Lucide Icons" height="24" />
-      </p>
-    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -81,7 +71,7 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 18d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
   <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
@@ -158,44 +148,9 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,prisma,firebase,git,github,vscode,figma,postman" alt="Verified Skills" />
+<img src="https://skillicons.dev/icons?i=ts,js,cs,cpp,python,html,css,react,nextjs,tailwind,vite,nestjs,nodejs,dotnet,postgres,mysql,mongodb,prisma,firebase,git,github,vscode,postman,figma,vercel,netlify" alt="Verified Skills" />
 
 </div>
-
-<br/>
-
-**💻 Programming Languages**
-```
-• TypeScript         • JavaScript (ES6+)    • C# (.NET)        • Python
-• C++ (OpenGL)       • HTML5                • CSS3             • SQL / T-SQL
-```
-
-**🌐 Frontend & Mobile Technologies**
-```
-• Next.js (App Router) • React              • React Native (Expo) • Vite
-• Tailwind CSS         • DaisyUI            • Radix UI Primitives • Flowbite React
-• Framer Motion        • Swiper             • React Router        • React Tabs
-• Recharts / Chart.js  • Sonner / Toastify  • Lucide Icons        • React Icons
-```
-
-**⚙️ Backend & API Engineering**
-```
-• NestJS (Modular API) • Node.js            • Express             • ASP.NET Core (.NET)
-• RESTful APIs         • RxJS               • Nodemailer          • Multer File Uploads
-```
-
-**🔐 Authentication, Databases & ORMs**
-```
-• JWT (JSON Web Tokens)• Passport.js        • Firebase Auth       • Bcrypt Hashing
-• PostgreSQL           • MySQL              • MongoDB             • Microsoft SQL Server
-• Prisma ORM           • TypeORM
-```
-
-**☁️ Cloud Hosting & DevOps Tools**
-```
-• Vercel               • Netlify            • Surge.sh            • Firebase Hosting
-• Git & GitHub Actions • VS Code            • Postman             • Figma
-```
 
 ---
 
@@ -203,7 +158,7 @@ flowchart LR
 ### 📊 GitHub Analytics & Insights
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-2-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">
