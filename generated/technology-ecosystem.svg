@@ -37,10 +37,10 @@
 <text x="95.0" y="180" class="muted" font-size="11.5" font-weight="500">JavaScript</text>
 <line class="line" x1="135.0" y1="102" x2="135.0" y2="204" stroke-width="1" stroke-dasharray="3,3"/>
 <circle cx="85.0" cy="202" r="3" class="accent"/>
-<text x="95.0" y="206" class="muted" font-size="11.5" font-weight="500">C#</text>
+<text x="95.0" y="206" class="muted" font-size="11.5" font-weight="500">TypeScript</text>
 <line class="line" x1="135.0" y1="102" x2="135.0" y2="230" stroke-width="1" stroke-dasharray="3,3"/>
 <circle cx="85.0" cy="228" r="3" class="accent"/>
-<text x="95.0" y="232" class="muted" font-size="11.5" font-weight="500">TypeScript</text>
+<text x="95.0" y="232" class="muted" font-size="11.5" font-weight="500">C#</text>
 <line class="line" x1="135.0" y1="102" x2="135.0" y2="256" stroke-width="1" stroke-dasharray="3,3"/>
 <circle cx="85.0" cy="254" r="3" class="accent"/>
 <text x="95.0" y="258" class="muted" font-size="11.5" font-weight="500">ASP.NET</text>

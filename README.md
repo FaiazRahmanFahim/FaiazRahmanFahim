@@ -60,16 +60,7 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📦 Advance Web Tech</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Advance-Web-Tech"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-      </p>
-      <p>Full-stack software application built with modern engineering practices.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" height="24" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" height="24" />
-      </p>
-    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -79,10 +70,12 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
 
 **Active & Ongoing Projects**
 
+- **[Hotel-Reservation-System](https://github.com/FaiazRahmanFahim/Hotel-Reservation-System)**
+  <sub>`TypeScript` · 🔥 Active · updated today · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated today</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 1d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 39d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 40d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
 ---
 

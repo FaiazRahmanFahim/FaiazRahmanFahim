@@ -33,6 +33,7 @@
         "technology": "CSS",
         "confidence": 0.99,
         "repos": [
+          "Hotel-Reservation-System",
           "Infinite-Cinema-Series-Network-ICSN",
           "Customer-Support-Zone",
           "Green-nest",
@@ -46,7 +47,6 @@
           "Responsive-Flower-Market",
           "Demo-Influencer",
           "PHB12A01",
-          "Hotel-Reservation-System",
           "Advance-Web-Tech",
           ".NET-Framework"
         ],
@@ -59,6 +59,7 @@
         "technology": "JavaScript",
         "confidence": 0.99,
         "repos": [
+          "Hotel-Reservation-System",
           "Infinite-Cinema-Series-Network-ICSN",
           "Customer-Support-Zone",
           "Green-nest",
@@ -69,7 +70,6 @@
           "Payoo-Mobile-App",
           "Emergency-Hotline",
           "TG-Project",
-          "Hotel-Reservation-System",
           "Advance-Web-Tech",
           ".NET-Framework"
         ],
@@ -79,12 +79,12 @@
         "repo_count": 13
       },
       {
-        "technology": "C#",
+        "technology": "TypeScript",
         "confidence": 0.99,
         "repos": [
-          "book-shop-management",
-          ".NET-Framework-project-",
-          ".NET-Framework"
+          "Hotel-Reservation-System",
+          "TG-Project",
+          "Advance-Web-Tech"
         ],
         "evidence": [
           "GitHub language statistics"
@@ -92,12 +92,12 @@
         "repo_count": 3
       },
       {
-        "technology": "TypeScript",
+        "technology": "C#",
         "confidence": 0.99,
         "repos": [
-          "TG-Project",
-          "Hotel-Reservation-System",
-          "Advance-Web-Tech"
+          "book-shop-management",
+          ".NET-Framework-project-",
+          ".NET-Framework"
         ],
         "evidence": [
           "GitHub language statistics"
@@ -249,7 +249,7 @@
     },
     {
       "language": "TypeScript",
-      "bytes": 534567,
+      "bytes": 534684,
       "percentage": 20.2
     },
     {
