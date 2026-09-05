@@ -71,11 +71,11 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
 **Active & Ongoing Projects**
 
 - **[Hotel-Reservation-System](https://github.com/FaiazRahmanFahim/Hotel-Reservation-System)**
-  <sub>`TypeScript` · 🔥 Active · updated today · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
+  <sub>`TypeScript` · 🔥 Active · updated 1d ago · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated 1d ago</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 2d ago</sub>
 - **[Customer-Support-Zone](https://github.com/FaiazRahmanFahim/Customer-Support-Zone)**
-  <sub>`JavaScript` · ⚡ In Progress · updated 40d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
+  <sub>`JavaScript` · ⚡ In Progress · updated 41d ago · [Live Demo](https://customer-support-zone-mafrf.surge.sh/)</sub>
 
 ---
 
