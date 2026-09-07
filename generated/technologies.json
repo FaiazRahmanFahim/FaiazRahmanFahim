@@ -33,8 +33,8 @@
         "technology": "CSS",
         "confidence": 0.99,
         "repos": [
-          "Hotel-Reservation-System",
           "Infinite-Cinema-Series-Network-ICSN",
+          "Hotel-Reservation-System",
           "Customer-Support-Zone",
           "Green-nest",
           "Hero-Apps",
@@ -59,8 +59,8 @@
         "technology": "JavaScript",
         "confidence": 0.99,
         "repos": [
-          "Hotel-Reservation-System",
           "Infinite-Cinema-Series-Network-ICSN",
+          "Hotel-Reservation-System",
           "Customer-Support-Zone",
           "Green-nest",
           "Hero-Apps",
@@ -239,23 +239,23 @@
   "language_distribution": [
     {
       "language": "JavaScript",
-      "bytes": 1201126,
-      "percentage": 45.4
+      "bytes": 1269853,
+      "percentage": 46.8
     },
     {
       "language": "HTML",
       "bytes": 546497,
-      "percentage": 20.7
+      "percentage": 20.1
     },
     {
       "language": "TypeScript",
       "bytes": 534684,
-      "percentage": 20.2
+      "percentage": 19.7
     },
     {
       "language": "C#",
       "bytes": 215393,
-      "percentage": 8.1
+      "percentage": 7.9
     },
     {
       "language": "C++",
@@ -265,7 +265,7 @@
     {
       "language": "Python",
       "bytes": 55148,
-      "percentage": 2.1
+      "percentage": 2.0
     },
     {
       "language": "CSS",
