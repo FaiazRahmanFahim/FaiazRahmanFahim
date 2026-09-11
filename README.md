@@ -71,9 +71,9 @@ A dynamic showcase of projects pinned directly on my GitHub profile:
 **Active & Ongoing Projects**
 
 - **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated 2d ago</sub>
+  <sub>`JavaScript` · 🔥 Active · updated 3d ago</sub>
 - **[Hotel-Reservation-System](https://github.com/FaiazRahmanFahim/Hotel-Reservation-System)**
-  <sub>`TypeScript` · 🔥 Active · updated 6d ago · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
+  <sub>`TypeScript` · 🔥 Active · updated 7d ago · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
 
 ---
 
