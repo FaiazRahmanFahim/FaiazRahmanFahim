@@ -6,19 +6,19 @@
     },
     {
       "name": "Infinite-Cinema-Series-Network-ICSN",
-      "days_since_push": 5.9
+      "days_since_push": 6.9
     },
     {
       "name": "Hotel-Reservation-System",
-      "days_since_push": 20.8
+      "days_since_push": 21.8
     },
     {
       "name": "Customer-Support-Zone",
-      "days_since_push": 60.1
+      "days_since_push": 61.1
     },
     {
       "name": "Green-nest",
-      "days_since_push": 69.8
+      "days_since_push": 70.8
     }
   ],
   "classifications": {
@@ -29,9 +29,7 @@
     "Infinite-Cinema-Series-Network-ICSN": [
       "\ud83d\udd25 Active"
     ],
-    "Hotel-Reservation-System": [
-      "\ud83d\udd25 Active"
-    ],
+    "Hotel-Reservation-System": [],
     "Customer-Support-Zone": [],
     "Green-nest": [],
     "simple-faq-master": [],
