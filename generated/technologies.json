@@ -239,7 +239,7 @@
   "language_distribution": [
     {
       "language": "JavaScript",
-      "bytes": 1608627,
+      "bytes": 1610531,
       "percentage": 52.7
     },
     {
@@ -255,7 +255,7 @@
     {
       "language": "C#",
       "bytes": 215393,
-      "percentage": 7.1
+      "percentage": 7.0
     },
     {
       "language": "C++",
