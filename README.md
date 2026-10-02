@@ -25,55 +25,14 @@ I am a **Full-Stack Developer & Software Engineer** based in Dhaka, Bangladesh, 
 A dynamic showcase of projects pinned directly on my GitHub profile:
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🏨 Hotel Reservation & Management System</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Hotel-Reservation-System"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-        <a href="https://faiazrahmanfahim.github.io/Hotel-Reservation-System/"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-      </p>
-      <p>Full-stack enterprise hotel management and booking system with multi-criteria room filtering, reservation lifecycles, role-based access, and administrative analytics.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="24" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" height="24" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" height="24" /> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" height="24" /> <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" height="24" /> <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI" height="24" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🌿 GreenNest — Plant Care & Eco Platform</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Green-nest"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-        <a href="https://green-nest-firebase-auth.web.app/"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-      </p>
-      <p>Deployed plant enthusiast platform with user authentication, protected routes, curated decor showcases, and real-time cloud data synchronization.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase Auth" height="24" /> <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firestore" height="24" /> <img src="https://img.shields.io/badge/Firebase_Hosting-039BE5?style=flat-square&logo=firebase&logoColor=white" alt="Firebase Hosting" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎬 Infinite Cinema & Series Network (ICSN)</h3>
-      <p align="center">
-        <a href="https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN"><img src="https://img.shields.io/badge/Source_Code-161b22?style=flat-square&logo=github&logoColor=58A6FF" alt="Code" /></a>
-      </p>
-      <p>Interactive entertainment and media discovery web application featuring fluid Framer Motion route animations, responsive touch-swipe carousels, and modern dark aesthetics.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="24" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" height="24" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="24" /> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" height="24" /> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white" alt="Swiper" height="24" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" height="24" />
-      </p>
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
+
 </table>
 
 <br/>
 
 ### 🔥 Currently Building
 
-**Active & Ongoing Projects**
-
-- **[Infinite-Cinema-Series-Network-ICSN](https://github.com/FaiazRahmanFahim/Infinite-Cinema-Series-Network-ICSN)**
-  <sub>`JavaScript` · 🔥 Active · updated 1d ago</sub>
-- **[Hotel-Reservation-System](https://github.com/FaiazRahmanFahim/Hotel-Reservation-System)**
-  <sub>`TypeScript` · ⚡ In Progress · updated 27d ago · [Live Demo](https://hotel-reservation-system-olive.vercel.app/)</sub>
+_No active projects currently in development._
 
 ---
 
@@ -184,7 +143,7 @@ flowchart LR
 ### 📊 GitHub Analytics & Insights
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-24-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Followers-3-39D0D8?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
+  <img src="https://img.shields.io/badge/Stars_Earned-0-F778BA?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Forks-0-7EE787?style=for-the-badge&logo=git-fork&logoColor=white" alt="Forks" />
 </div>
 <br/>
 <div align="center">
