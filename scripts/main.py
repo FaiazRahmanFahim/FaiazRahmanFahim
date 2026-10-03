@@ -113,15 +113,7 @@ def build_about_me(config: dict) -> str:
 def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> str:
     blocks = []
 
-    # 1. GitHub Trophies & Achievements
-    trophy_content = [
-        '<div align="center">',
-        f'  <img src="https://github-trophies.devomb.com/?username={username}&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />',
-        '</div>'
-    ]
-    blocks.append("### 🏆 GitHub Trophies & Achievements\n\n" + "\n".join(trophy_content))
-
-    # 2. GitHub Analytics & Metric Cards
+    # 1. GitHub Analytics & Metric Cards
     analytics_content = [
         '<div align="center">',
         '  ' + rg.render_analytics_badges(stats),

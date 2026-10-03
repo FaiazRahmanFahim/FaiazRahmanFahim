@@ -181,14 +181,6 @@ flowchart LR
 ---
 
 <!-- AUTO-GENERATED:START -->
-### 🏆 GitHub Trophies & Achievements
-
-<div align="center">
-  <img src="https://github-trophies.devomb.com/?username=AlFaiaz&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</div>
-
----
-
 ### 📊 GitHub Analytics & Insights
 
 <div align="center">
