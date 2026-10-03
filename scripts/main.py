@@ -148,7 +148,7 @@ def build_auto_block(repos, tech_agg, stats, classifications, username: str) -> 
 def main():
     config = load_config()
     profile = config.get("profile", {})
-    username = profile.get("username", "FaiazRahmanFahim")
+    username = profile.get("username", "AlFaiaz")
 
     client = gc.GitHubClient(username=username)
 

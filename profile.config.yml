@@ -5,7 +5,7 @@
 
 profile:
   name: "Md Al Faiaz Rahman Fahim"
-  username: "FaiazRahmanFahim"
+  username: "AlFaiaz"
   title: "Full-Stack Developer & Software Engineer"
 
   # One line. Shown directly under the title in the hero section.
@@ -39,8 +39,8 @@ about:
     - "Consistency, creative curiosity, and relentless debugging compound into engineering mastery."
 
 social:
-  portfolio: "https://alfaiaz-portfolio.vercel.app/"
-  linkedin: "https://www.linkedin.com/in/mafrfahim31/"
+  portfolio: "https://alfaiaz.vercel.app/"
+  linkedin: "https://www.linkedin.com/in/alfaiaz"
   email: "faiazrahman12.std@gmail.com"
 
   twitter: ""

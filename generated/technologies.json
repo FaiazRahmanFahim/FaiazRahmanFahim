@@ -1,4 +1,281 @@
 {
-  "categories": {},
-  "language_distribution": []
+  "categories": {
+    "language": [
+      {
+        "technology": "HTML",
+        "confidence": 0.99,
+        "repos": [
+          "Infinite-Cinema-Series-Network-ICSN",
+          "Customer-Support-Zone",
+          "Green-nest",
+          "simple-faq-master",
+          "Hero-Apps",
+          "Boi-Poka",
+          "Green-Earth",
+          "BPL-Teams-bets",
+          "Payoo-Mobile-App",
+          "book-shop-management",
+          "English-Janala",
+          "Emergency-Hotline",
+          "Tea-House",
+          "Responsive-Flower-Market",
+          "Demo-Influencer",
+          "PHB12A01",
+          ".NET-Framework-project-",
+          ".NET-Framework"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 18
+      },
+      {
+        "technology": "CSS",
+        "confidence": 0.99,
+        "repos": [
+          "Infinite-Cinema-Series-Network-ICSN",
+          "Hotel-Reservation-System",
+          "Customer-Support-Zone",
+          "Green-nest",
+          "Hero-Apps",
+          "Boi-Poka",
+          "Green-Earth",
+          "BPL-Teams-bets",
+          "Payoo-Mobile-App",
+          "English-Janala",
+          "Tea-House",
+          "Responsive-Flower-Market",
+          "Demo-Influencer",
+          "PHB12A01",
+          "Advance-Web-Tech",
+          ".NET-Framework"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 16
+      },
+      {
+        "technology": "JavaScript",
+        "confidence": 0.99,
+        "repos": [
+          "Infinite-Cinema-Series-Network-ICSN",
+          "Hotel-Reservation-System",
+          "Customer-Support-Zone",
+          "Green-nest",
+          "Hero-Apps",
+          "Boi-Poka",
+          "Green-Earth",
+          "BPL-Teams-bets",
+          "Payoo-Mobile-App",
+          "Emergency-Hotline",
+          "TG-Project",
+          "Advance-Web-Tech",
+          ".NET-Framework"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 13
+      },
+      {
+        "technology": "TypeScript",
+        "confidence": 0.99,
+        "repos": [
+          "Hotel-Reservation-System",
+          "TG-Project",
+          "Advance-Web-Tech"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 3
+      },
+      {
+        "technology": "C#",
+        "confidence": 0.99,
+        "repos": [
+          "book-shop-management",
+          ".NET-Framework-project-",
+          ".NET-Framework"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 3
+      },
+      {
+        "technology": "ASP.NET",
+        "confidence": 0.99,
+        "repos": [
+          ".NET-Framework-project-",
+          ".NET-Framework"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 2
+      },
+      {
+        "technology": "Python",
+        "confidence": 0.99,
+        "repos": [
+          "AlFaiaz"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 1
+      },
+      {
+        "technology": "C++",
+        "confidence": 0.99,
+        "repos": [
+          "Computer-Graphic"
+        ],
+        "evidence": [
+          "GitHub language statistics"
+        ],
+        "repo_count": 1
+      }
+    ],
+    "frontend": [
+      {
+        "technology": "React",
+        "confidence": 0.95,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka",
+          "BPL-Teams-bets"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 3
+      },
+      {
+        "technology": "Tailwind CSS",
+        "confidence": 0.9,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka",
+          "Green-Earth",
+          "BPL-Teams-bets",
+          "Payoo-Mobile-App",
+          "English-Janala",
+          "Emergency-Hotline",
+          "Tea-House"
+        ],
+        "evidence": [
+          "package.json dependency",
+          "tailwind.config.js present"
+        ],
+        "repo_count": 8
+      },
+      {
+        "technology": "Vite",
+        "confidence": 0.9,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka",
+          "BPL-Teams-bets"
+        ],
+        "evidence": [
+          "package.json dependency",
+          "vite.config.js present"
+        ],
+        "repo_count": 3
+      },
+      {
+        "technology": "DaisyUI",
+        "confidence": 0.85,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka",
+          "BPL-Teams-bets"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 3
+      },
+      {
+        "technology": "React Router",
+        "confidence": 0.85,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 2
+      },
+      {
+        "technology": "Recharts",
+        "confidence": 0.75,
+        "repos": [
+          "Hero-Apps"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 1
+      },
+      {
+        "technology": "Lucide Icons",
+        "confidence": 0.6,
+        "repos": [
+          "Hero-Apps",
+          "Boi-Poka"
+        ],
+        "evidence": [
+          "package.json dependency"
+        ],
+        "repo_count": 2
+      }
+    ]
+  },
+  "language_distribution": [
+    {
+      "language": "JavaScript",
+      "bytes": 1610531,
+      "percentage": 52.7
+    },
+    {
+      "language": "HTML",
+      "bytes": 546876,
+      "percentage": 17.9
+    },
+    {
+      "language": "TypeScript",
+      "bytes": 534684,
+      "percentage": 17.5
+    },
+    {
+      "language": "C#",
+      "bytes": 215393,
+      "percentage": 7.0
+    },
+    {
+      "language": "C++",
+      "bytes": 62031,
+      "percentage": 2.0
+    },
+    {
+      "language": "Python",
+      "bytes": 55148,
+      "percentage": 1.8
+    },
+    {
+      "language": "CSS",
+      "bytes": 31650,
+      "percentage": 1.0
+    },
+    {
+      "language": "ASP.NET",
+      "bytes": 303,
+      "percentage": 0.0
+    }
+  ]
 }

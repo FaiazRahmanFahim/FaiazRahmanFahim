@@ -82,13 +82,13 @@ def render_currently_building(repos: list[dict], labels_by_repo: dict[str, list[
     active_picks = [
         r for r in repos 
         if not r["is_fork"] 
-        and r.get("name") != "FaiazRahmanFahim" 
+        and r.get("name") not in ["FaiazRahmanFahim", "AlFaiaz"] 
         and (r.get("days_since_push", 999) <= 45 or r.get("is_manually_current"))
     ]
 
     if not active_picks:
         # Fallback to top 2 most recent non-fork projects
-        active_picks = [r for r in repos if not r["is_fork"] and r.get("name") != "FaiazRahmanFahim"][:2]
+        active_picks = [r for r in repos if not r["is_fork"] and r.get("name") not in ["FaiazRahmanFahim", "AlFaiaz"]][:2]
 
     if not active_picks:
         return "_No active projects currently in development._"
@@ -267,9 +267,9 @@ def merge_with_existing(existing_readme: str | None, rendered_auto_block: str, f
 
 def render_featured_projects(pinned_names: list[str], repos_by_name: dict[str, dict], tech_by_repo: dict[str, list[str]]) -> str:
     """Render 2-column showcase table dynamically for pinned repositories."""
-    pinned = [name for name in pinned_names if name and name != "FaiazRahmanFahim"]
+    pinned = [name for name in pinned_names if name and name not in ["FaiazRahmanFahim", "AlFaiaz"]]
     if not pinned:
-        pinned = [r for r in repos_by_name if r != "FaiazRahmanFahim"][:4]
+        pinned = [r for r in repos_by_name if r not in ["FaiazRahmanFahim", "AlFaiaz"]][:4]
 
     CURATED_DETAILS = {
         "Hotel-Reservation-System": {
@@ -332,7 +332,7 @@ def render_featured_projects(pinned_names: list[str], repos_by_name: dict[str, d
             title = details.get("title") or f"📦 {name.replace('-', ' ').title()}"
             desc = details.get("desc") or repo.get("description") or "Full-stack software application built with modern engineering practices."
             demo_url = details.get("demo") or repo.get("homepage")
-            source_url = repo.get("html_url") or f"https://github.com/FaiazRahmanFahim/{name}"
+            source_url = repo.get("html_url") or f"https://github.com/AlFaiaz/{name}"
             
             techs = details.get("techs") or tech_by_repo.get(name, [])
             if not techs and repo.get("language"):

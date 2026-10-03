@@ -2,13 +2,13 @@
 
 # Md Al Faiaz Rahman Fahim
 
-<a href="https://github.com/FaiazRahmanFahim">
+<a href="https://github.com/AlFaiaz">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Full-Stack+Developer+%26+Software+Engineer;Next.js+%E2%80%A2+React+%E2%80%A2+NestJS+%E2%80%A2+TypeScript;Architecting+Scalable+Web+%26+Mobile+Systems;BUILD+%E2%80%A2+BREAK+%E2%80%A2+DEBUG+%E2%80%A2+REPEAT" alt="Typing Banner" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&borderColor=58A6FF)](https://alfaiaz-portfolio.vercel.app/)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mafrfahim31/)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faiazrahman12.std@gmail.com)&nbsp;&nbsp;[![Location](https://img.shields.io/badge/Dhaka%2C%20Bangladesh-21262d?style=for-the-badge&logo=googlemaps&logoColor=39D0D8)](https://maps.google.com/?q=Dhaka,Bangladesh)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&borderColor=58A6FF)](https://alfaiaz.vercel.app/)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfaiaz)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faiazrahman12.std@gmail.com)&nbsp;&nbsp;[![Location](https://img.shields.io/badge/Dhaka%2C%20Bangladesh-21262d?style=for-the-badge&logo=googlemaps&logoColor=39D0D8)](https://maps.google.com/?q=Dhaka,Bangladesh)
 
 </div>
 
@@ -153,7 +153,7 @@ flowchart LR
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&borderColor=58A6FF)](https://alfaiaz-portfolio.vercel.app/)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mafrfahim31/)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faiazrahman12.std@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&borderColor=58A6FF)](https://alfaiaz.vercel.app/)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfaiaz)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faiazrahman12.std@gmail.com)
 
 <br/>
 
